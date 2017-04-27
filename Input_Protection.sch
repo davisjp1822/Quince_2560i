@@ -4159,4 +4159,6 @@ Wire Wire Line
 Wire Wire Line
 	12950 3250 13650 3250
 Connection ~ 13650 3550
+Text Notes 12250 5150 0    60   ~ 0
+NOTES:\n----------\nOptional -\nDepending on input voltage, the 10k pull-ups could be 4.7k
 $EndSCHEMATC

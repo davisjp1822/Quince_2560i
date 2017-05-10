@@ -1230,14 +1230,15 @@ F 0 "J109" H 9850 2800 50  0000 C CNN
 F 1 "CONN_01X10" V 9950 2250 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 9850 2250 50  0001 C CNN
 F 3 "" H 9850 2250 50  0001 C CNN
-F 4 "Value" H 9850 2250 60  0001 C CNN "MPN"
-F 5 "Value" H 9850 2250 60  0001 C CNN "MFN"
-F 6 "Value" H 9850 2250 60  0001 C CNN "Characteristics"
-F 7 "Value" H 9850 2250 60  0001 C CNN "Description"
-F 8 "Value" H 9850 2250 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 9850 2250 60  0001 C CNN "Source"
-F 10 "Y" H 9850 2250 60  0001 C CNN "Critical"
-F 11 "X" H 9850 2250 60  0001 C CNN "Notes"
+F 4 "Value" H 9850 2250 60  0001 C CNN "Characteristics"
+F 5 "Value" H 9850 2250 60  0001 C CNN "Description"
+F 6 "Sullins Connector Solutions" H 9850 2250 60  0001 C CNN "MFN"
+F 7 "Value" H 9850 2250 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 9850 2250 60  0001 C CNN "Source"
+F 9 "Y" H 9850 2250 60  0001 C CNN "Critical"
+F 10 "X" H 9850 2250 60  0001 C CNN "Notes"
+F 11 "1" H 9850 2250 60  0001 C CNN "Populate"
+F 12 "PRPC010SAAN-RC" H 9850 2250 60  0001 C CNN "MPN"
 	1    9850 2250
 	1    0    0    -1  
 $EndComp
@@ -1254,14 +1255,15 @@ F 0 "J112" H 9850 3700 50  0000 C CNN
 F 1 "CONN_01X08" V 9950 3250 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 9850 3250 50  0001 C CNN
 F 3 "" H 9850 3250 50  0001 C CNN
-F 4 "Value" H 9850 3250 60  0001 C CNN "MPN"
-F 5 "Value" H 9850 3250 60  0001 C CNN "MFN"
-F 6 "Value" H 9850 3250 60  0001 C CNN "Characteristics"
-F 7 "Value" H 9850 3250 60  0001 C CNN "Description"
-F 8 "Value" H 9850 3250 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 9850 3250 60  0001 C CNN "Source"
-F 10 "Y" H 9850 3250 60  0001 C CNN "Critical"
-F 11 "X" H 9850 3250 60  0001 C CNN "Notes"
+F 4 "Value" H 9850 3250 60  0001 C CNN "Characteristics"
+F 5 "Value" H 9850 3250 60  0001 C CNN "Description"
+F 6 "Sullins Connector Solutions" H 9850 3250 60  0001 C CNN "MFN"
+F 7 "Value" H 9850 3250 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 9850 3250 60  0001 C CNN "Source"
+F 9 "Y" H 9850 3250 60  0001 C CNN "Critical"
+F 10 "X" H 9850 3250 60  0001 C CNN "Notes"
+F 11 "1" H 9850 3250 60  0001 C CNN "Populate"
+F 12 "PRPC008SAAN-RC" H 9850 3250 60  0001 C CNN "MPN"
 	1    9850 3250
 	1    0    0    -1  
 $EndComp

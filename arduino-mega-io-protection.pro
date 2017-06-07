@@ -1,4 +1,4 @@
-update=4/23/2017 10:29:09 AM
+update=6/5/2017 3:03:46 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=Hardware Libraries
+LibDir=Hardware Libraries;C:/Users/davisjp/Documents/Development/3ML KiCad Component Library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,3 +60,6 @@ LibName28=contrib
 LibName29=valves
 LibName30=Hardware Libraries/Components/3ML_LLC_Component_Library
 LibName31=Hardware Libraries/Components/arduino_shieldsNCL
+LibName32=3ML_RJ45
+LibName33=3ML_W5500
+LibName34=switches

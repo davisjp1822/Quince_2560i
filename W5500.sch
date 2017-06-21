@@ -377,8 +377,8 @@ $Comp
 L Crystal_GND24 Y301
 U 1 1 5936BD03
 P 1950 5700
-F 0 "Y301" H 1750 6100 50  0000 L CNN
-F 1 "25Mhz" H 1750 6000 50  0000 L CNN
+F 0 "Y301" H 2050 5350 50  0000 L CNN
+F 1 "25Mhz" H 2000 5450 50  0000 L CNN
 F 2 "3ML_SMD_Generic:3ML_4-SMD" H 1950 5700 50  0001 C CNN
 F 3 "http://www.abracon.com/Resonators/ABM8G.pdf" H 1950 5700 50  0001 C CNN
 F 4 "ABM8G-25.000MHZ-18-D2Y-T" H 1950 5700 60  0001 C CNN "MPN"
@@ -390,7 +390,7 @@ F 9 "Digikey" H 1950 5700 60  0001 C CNN "Source"
 F 10 "Y" H 1950 5700 60  0001 C CNN "Critical"
 F 11 "X" H 1950 5700 60  0001 C CNN "Notes"
 	1    1950 5700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L C_Small C302
@@ -414,20 +414,20 @@ $EndComp
 $Comp
 L R R301
 U 1 1 5936CB3E
-P 1550 5450
-F 0 "R301" V 1630 5450 50  0000 C CNN
-F 1 "0" V 1550 5450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1480 5450 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 1550 5450 50  0001 C CNN
-F 4 "RC0805JR-070RL" H 1550 5450 60  0001 C CNN "MPN"
-F 5 "Yageo" H 1550 5450 60  0001 C CNN "MFN"
-F 6 "Ethernet" H 1550 5450 60  0001 C CNN "Characteristics"
-F 7 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 1550 5450 60  0001 C CNN "Description"
-F 8 "0805" H 1550 5450 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 1550 5450 60  0001 C CNN "Source"
-F 10 "Y" H 1550 5450 60  0001 C CNN "Critical"
-F 11 "X" H 1550 5450 60  0001 C CNN "Notes"
-	1    1550 5450
+P 2350 5450
+F 0 "R301" V 2430 5450 50  0000 C CNN
+F 1 "0" V 2350 5450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2280 5450 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 2350 5450 50  0001 C CNN
+F 4 "RC0805JR-070RL" H 2350 5450 60  0001 C CNN "MPN"
+F 5 "Yageo" H 2350 5450 60  0001 C CNN "MFN"
+F 6 "Ethernet" H 2350 5450 60  0001 C CNN "Characteristics"
+F 7 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 2350 5450 60  0001 C CNN "Description"
+F 8 "0805" H 2350 5450 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 2350 5450 60  0001 C CNN "Source"
+F 10 "Y" H 2350 5450 60  0001 C CNN "Critical"
+F 11 "X" H 2350 5450 60  0001 C CNN "Notes"
+	1    2350 5450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -708,32 +708,16 @@ Wire Wire Line
 Wire Wire Line
 	10050 4850 10550 4850
 Wire Wire Line
-	1800 5700 1550 5700
-Wire Wire Line
-	2350 5700 2100 5700
-Wire Wire Line
-	2350 5150 2350 5750
-Wire Wire Line
-	1550 5600 1550 5750
+	1550 4900 1550 5750
 Wire Wire Line
 	1550 5950 1550 6100
 Wire Wire Line
 	1550 6100 2350 6100
 Wire Wire Line
-	1950 5900 1950 6300
-Wire Wire Line
 	2350 6100 2350 5950
 Connection ~ 1950 6100
-Wire Wire Line
-	1950 5500 1950 5450
-Wire Wire Line
-	1950 5450 2200 5450
-Wire Wire Line
-	2200 5450 2200 6100
 Connection ~ 2200 6100
 Connection ~ 1550 5700
-Wire Wire Line
-	1550 4900 1550 5300
 Connection ~ 2350 5700
 Wire Wire Line
 	1550 5150 1800 5150
@@ -1690,4 +1674,20 @@ F 3 "" H 8750 4150 50  0001 C CNN
 	1    8750 4150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1950 5900 1950 6300
+Wire Wire Line
+	1950 5500 1950 5400
+Wire Wire Line
+	1950 5400 2200 5400
+Wire Wire Line
+	2200 5400 2200 6100
+Wire Wire Line
+	2350 5600 2350 5750
+Wire Wire Line
+	2350 5300 2350 5150
+Wire Wire Line
+	1800 5700 1550 5700
+Wire Wire Line
+	2100 5700 2350 5700
 $EndSCHEMATC

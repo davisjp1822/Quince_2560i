@@ -30,8 +30,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:3ML_LLC_Component_Library
 LIBS:arduino_shieldsNCL
-LIBS:3ML_RJ45
-LIBS:3ML_W5500
 LIBS:switches
 LIBS:arduino-mega-io-protection-cache
 EELAYER 25 0

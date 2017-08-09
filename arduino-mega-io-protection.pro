@@ -1,4 +1,4 @@
-update=Monday, August 07, 2017 'AMt' 08:08:21 AM
+update=Tuesday, August 08, 2017 'PMt' 07:37:33 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=Hardware Libraries
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,6 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=3ML_RJ45
-LibName31=3ML_W5500
-LibName32=switches
+LibName30=switches
+LibName31=Hardware Libraries/3ML_RJ45

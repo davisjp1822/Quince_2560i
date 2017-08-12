@@ -1,4 +1,4 @@
 (fp_lib_table
   (lib (name 3ML_RJ45)(type KiCad)(uri "$(KIPRJMOD)/Hardware Libraries/Footprints/3ML_RJ45.pretty")(options "")(descr ""))
-  (lib (name 3ML_SMD_Generic)(type KiCad)(uri "$(KIPRJMOD)/Hardware_Libraries/Footprints/3ML_SMD_Generic.pretty")(options "")(descr ""))
+  (lib (name 3ML_SMD_Generic)(type KiCad)(uri "$(KIPRJMOD)/Hardware Libraries/Footprints/3ML_SMD_Generic.pretty")(options "")(descr ""))
 )

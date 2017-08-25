@@ -53,14 +53,15 @@ F 0 "J110" H 10950 6050 50  0000 C CNN
 F 1 "CONN_02X18" V 10950 5100 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x18_Pitch2.54mm" H 10950 4050 50  0001 C CNN
 F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzDxxN-RC_11636-B.pdf" H 10950 4050 50  0001 C CNN
-F 4 "PRPC018DAAN-RC" H 10950 5100 60  0001 C CNN "MPN"
-F 5 "Sullins Connector Solutions" H 10950 5100 60  0001 C CNN "MFN"
-F 6 "X" H 10950 5100 60  0001 C CNN "Characteristics"
-F 7 "CONN HEADER .100\" DUAL STR 36POS" H 10950 5100 60  0001 C CNN "Description"
-F 8 "Through Hole" H 10950 5100 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 10950 5100 60  0001 C CNN "Source"
-F 10 "Y" H 10950 5100 60  0001 C CNN "Critical"
-F 11 "X" H 10950 5100 60  0001 C CNN "Notes"
+F 4 "X" H 10950 5100 60  0001 C CNN "Characteristics"
+F 5 "CONN HEADER .100\" DUAL STR 36POS" H 10950 5100 60  0001 C CNN "Description"
+F 6 "Sullins Connector Solutions" H 10950 5100 60  0001 C CNN "MFN"
+F 7 "Through Hole" H 10950 5100 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 10950 5100 60  0001 C CNN "Source"
+F 9 "Y" H 10950 5100 60  0001 C CNN "Critical"
+F 10 "X" H 10950 5100 60  0001 C CNN "Notes"
+F 11 "1" H 10950 5100 60  0001 C CNN "Populate"
+F 12 "X" H 10950 5100 60  0001 C CNN "MPN"
 	1    10950 5100
 	0    1    1    0   
 $EndComp
@@ -1988,4 +1989,6 @@ F 12 "MBR0580-TP" H 3400 5350 60  0001 C CNN "MPN"
 	1    3400 5350
 	0    -1   -1   0   
 $EndComp
+Text Notes 650  800  0    60   ~ 0
+USE PHOENIX 1709678 INSTEAD OF WURTH CONN
 $EndSCHEMATC

@@ -2,7 +2,7 @@
 
   (general
     (links 458)
-    (no_connects 1)
+    (no_connects 0)
     (area 35.253802 44.036001 230.290762 147.6956)
     (thickness 1.6)
     (drawings 119)
@@ -39,7 +39,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.152)
     (user_trace_width 0.1524)
     (user_trace_width 0.254)
     (user_trace_width 0.508)
@@ -71,7 +71,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFF7F)
     (pcbplotparams
-      (layerselection 0x01000_00000000)
+      (layerselection 0x010fc_80000007)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -94,7 +94,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "/Users/davisjp/Desktop/oshstencils - arduino-inputs/"))
+      (outputdirectory /Users/davisjp/Desktop/mf-quince/))
   )
 
   (net 0 "")
@@ -9042,7 +9042,7 @@
   (gr_text 5 (at 151.2006 97.0308 90) (layer F.SilkS) (tstamp 58FF9C22)
     (effects (font (size 0.75 0.75) (thickness 0.1875)))
   )
-  (gr_text "Arduino Mega 2560\nQuince DI45 - 45 Input Module" (at 158.4071 78.9432) (layer F.SilkS)
+  (gr_text "Arduino Mega 2560\nQuince DI45 - 45 Input Module v1.0" (at 161.125 79.15) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text 6 (at 149.702 97.0308 90) (layer F.SilkS) (tstamp 58FF67F1)

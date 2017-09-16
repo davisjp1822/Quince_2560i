@@ -509,27 +509,27 @@ Text Label 7800 2700 0    60   ~ 0
 F_PWM12
 Text Label 7800 2550 0    60   ~ 0
 F_PWM13
-Text Label 1950 5250 2    60   ~ 0
-F_PWM2
-Text Label 1950 5350 2    60   ~ 0
-F_PWM3
-Text Label 1950 5050 2    60   ~ 0
-F_PWM4
-Text Label 1950 5150 2    60   ~ 0
-F_PWM5
-Text Label 1950 4850 2    60   ~ 0
-F_PWM6
-Text Label 1950 4950 2    60   ~ 0
-F_PWM7
-Text Label 1950 4650 2    60   ~ 0
-F_PWM8
 Text Label 1950 4750 2    60   ~ 0
-F_PWM9
+F_PWM2
+Text Label 1950 4650 2    60   ~ 0
+F_PWM3
 Text Label 1950 4550 2    60   ~ 0
-F_PWM11
-Text Label 1950 4250 2    60   ~ 0
-F_PWM12
+F_PWM4
+Text Label 1950 4450 2    60   ~ 0
+F_PWM5
 Text Label 1950 4350 2    60   ~ 0
+F_PWM6
+Text Label 1950 4250 2    60   ~ 0
+F_PWM7
+Text Label 1950 4150 2    60   ~ 0
+F_PWM8
+Text Label 1950 4050 2    60   ~ 0
+F_PWM9
+Text Label 1950 3850 2    60   ~ 0
+F_PWM11
+Text Label 1950 3750 2    60   ~ 0
+F_PWM12
+Text Label 1950 3650 2    60   ~ 0
 F_PWM13
 $Comp
 L ACC_? ACC101
@@ -929,17 +929,17 @@ Text Label 11850 6150 0    60   ~ 0
 DIN18
 Text Label 11850 6250 0    60   ~ 0
 DIN19
-Text Label 1950 4050 2    60   ~ 0
+Text Label 1950 5350 2    60   ~ 0
 F_DIN14
-Text Label 1950 4150 2    60   ~ 0
+Text Label 1950 5250 2    60   ~ 0
 F_DIN15
-Text Label 1950 3850 2    60   ~ 0
+Text Label 1950 5150 2    60   ~ 0
 F_DIN16
-Text Label 1950 3950 2    60   ~ 0
+Text Label 1950 5050 2    60   ~ 0
 F_DIN17
-Text Label 1950 3650 2    60   ~ 0
+Text Label 1950 4950 2    60   ~ 0
 F_DIN18
-Text Label 1950 3750 2    60   ~ 0
+Text Label 1950 4850 2    60   ~ 0
 F_DIN19
 Text Label 7800 2400 0    60   ~ 0
 F_DIN14
@@ -1061,12 +1061,12 @@ $EndComp
 $Comp
 L GND #PWR09
 U 1 1 593C6552
-P 2150 4950
-F 0 "#PWR09" H 2150 4700 50  0001 C CNN
-F 1 "GND" H 2150 4800 50  0000 C CNN
-F 2 "" H 2150 4950 50  0001 C CNN
-F 3 "" H 2150 4950 50  0001 C CNN
-	1    2150 4950
+P 2150 4450
+F 0 "#PWR09" H 2150 4200 50  0001 C CNN
+F 1 "GND" H 2150 4300 50  0000 C CNN
+F 2 "" H 2150 4450 50  0001 C CNN
+F 3 "" H 2150 4450 50  0001 C CNN
+	1    2150 4450
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -1293,21 +1293,21 @@ $EndComp
 $Comp
 L D_Schottky_ALT D102
 U 1 1 598AE553
-P 2150 4700
-F 0 "D102" H 2150 4800 50  0000 C CNN
-F 1 "0.5W" H 2150 4600 50  0000 C CNN
-F 2 "Diodes_SMD:SOD-123" H 2150 4700 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 2150 4700 50  0001 C CNN
-F 4 "X" H 2150 4700 60  0001 C CNN "Characteristics"
-F 5 "DIODE SCHOTTKY 80V 500MA SOD123" H 2150 4700 60  0001 C CNN "Description"
-F 6 "Micro Commercial Co" H 2150 4700 60  0001 C CNN "MFN"
-F 7 "SOD-123" H 2150 4700 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 2150 4700 60  0001 C CNN "Source"
-F 9 "Y" H 2150 4700 60  0001 C CNN "Critical"
-F 10 "X" H 2150 4700 60  0001 C CNN "Notes"
-F 11 "1" H 2150 4700 60  0001 C CNN "Populate"
-F 12 "MBR0580-TP" H 2150 4700 60  0001 C CNN "MPN"
-	1    2150 4700
+P 2150 4200
+F 0 "D102" H 2150 4300 50  0000 C CNN
+F 1 "0.5W" H 2150 4100 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-123" H 2150 4200 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 2150 4200 50  0001 C CNN
+F 4 "X" H 2150 4200 60  0001 C CNN "Characteristics"
+F 5 "DIODE SCHOTTKY 80V 500MA SOD123" H 2150 4200 60  0001 C CNN "Description"
+F 6 "Micro Commercial Co" H 2150 4200 60  0001 C CNN "MFN"
+F 7 "SOD-123" H 2150 4200 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 2150 4200 60  0001 C CNN "Source"
+F 9 "Y" H 2150 4200 60  0001 C CNN "Critical"
+F 10 "X" H 2150 4200 60  0001 C CNN "Notes"
+F 11 "1" H 2150 4200 60  0001 C CNN "Populate"
+F 12 "MBR0580-TP" H 2150 4200 60  0001 C CNN "MPN"
+	1    2150 4200
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1353,12 +1353,12 @@ $EndComp
 Text Notes 950  3050 0    60   ~ 0
 20 Pos Field Side Connector
 $Comp
-L Conn_01x20 J?
+L Conn_01x20 J175
 U 1 1 59BED4D5
 P 1150 4350
-F 0 "J?" H 1150 5350 50  0000 C CNN
+F 0 "J175" H 1150 5350 50  0000 C CNN
 F 1 "Conn_01x20" H 1150 3250 50  0000 C CNN
-F 2 "" H 1150 4350 50  0001 C CNN
+F 2 "3ML_Conn_Headers:Phoenix-1x20-1709678" H 1150 4350 50  0001 C CNN
 F 3 "" H 1150 4350 50  0001 C CNN
 F 4 "Value" H 1150 4350 60  0001 C CNN "Characteristics"
 F 5 "Value" H 1150 4350 60  0001 C CNN "Description"
@@ -1368,7 +1368,6 @@ F 8 "Digikey" H 1150 4350 60  0001 C CNN "Source"
 F 9 "Y" H 1150 4350 60  0001 C CNN "Critical"
 F 10 "X" H 1150 4350 60  0001 C CNN "Notes"
 F 11 "1" H 1150 4350 60  0001 C CNN "Populate"
-F 12 "1709678" H 1150 4350 60  0001 C CNN "MFN"
 	1    1150 4350
 	-1   0    0    -1  
 $EndComp
@@ -1741,8 +1740,6 @@ Wire Wire Line
 Wire Wire Line
 	1350 4050 1950 4050
 Wire Wire Line
-	1350 3950 1950 3950
-Wire Wire Line
 	1350 3850 1950 3850
 Wire Wire Line
 	1350 3750 1950 3750
@@ -1789,13 +1786,13 @@ Wire Wire Line
 Wire Wire Line
 	5900 4800 5450 4800
 Wire Wire Line
-	1350 4450 2150 4450
+	1350 3950 2150 3950
 Wire Wire Line
 	14850 4050 15400 4050
 Wire Wire Line
 	15400 4050 15400 3900
 Wire Wire Line
-	2150 4850 2150 4950
+	2150 4350 2150 4450
 Wire Wire Line
 	4150 2900 4150 3050
 Wire Wire Line
@@ -1826,7 +1823,7 @@ Connection ~ 2550 3550
 Wire Wire Line
 	2550 3550 2350 3550
 Wire Wire Line
-	2150 4450 2150 4550
+	2150 3950 2150 4050
 Wire Notes Line
 	500  7450 4900 7450
 Wire Notes Line
@@ -1835,4 +1832,6 @@ Text Notes 550  7650 0    125  ~ 0
 Accessories
 Text Notes 650  800  0    125  ~ 0
 Field Connections
+Wire Wire Line
+	1350 4450 1950 4450
 $EndSCHEMATC

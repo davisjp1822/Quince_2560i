@@ -36,7 +36,7 @@ EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 3 3
-Title "Arduino Input Protection"
+Title "Quince 2560i Inputs"
 Date "2017-04-23"
 Rev ""
 Comp "3ML LLC"

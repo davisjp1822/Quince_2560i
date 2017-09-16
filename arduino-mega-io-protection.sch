@@ -33,10 +33,10 @@ LIBS:3ML_RJ45
 LIBS:arduino-mega-io-protection-cache
 EELAYER 25 0
 EELAYER END
-$Descr USLegal 14000 8500
+$Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 3
-Title "Arduino Mega 2560 Digital I/O Protection"
+Title "Quince 2560i Input Module with Ethernet"
 Date "2017-04-23"
 Rev ""
 Comp "3ML LLC"
@@ -48,1947 +48,1791 @@ $EndDescr
 $Comp
 L CONN_02X18 J110
 U 1 1 58FCA818
-P 10950 5100
-F 0 "J110" H 10950 6050 50  0000 C CNN
-F 1 "CONN_02X18" V 10950 5100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x18_Pitch2.54mm" H 10950 4050 50  0001 C CNN
-F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzDxxN-RC_11636-B.pdf" H 10950 4050 50  0001 C CNN
-F 4 "X" H 10950 5100 60  0001 C CNN "Characteristics"
-F 5 "CONN HEADER .100\" DUAL STR 36POS" H 10950 5100 60  0001 C CNN "Description"
-F 6 "Sullins Connector Solutions" H 10950 5100 60  0001 C CNN "MFN"
-F 7 "Through Hole" H 10950 5100 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 10950 5100 60  0001 C CNN "Source"
-F 9 "Y" H 10950 5100 60  0001 C CNN "Critical"
-F 10 "X" H 10950 5100 60  0001 C CNN "Notes"
-F 11 "1" H 10950 5100 60  0001 C CNN "Populate"
-F 12 "X" H 10950 5100 60  0001 C CNN "MPN"
-	1    10950 5100
+P 13550 7050
+F 0 "J110" H 13550 8000 50  0000 C CNN
+F 1 "CONN_02X18" V 13550 7050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x18_Pitch2.54mm" H 13550 6000 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzDxxN-RC_11636-B.pdf" H 13550 6000 50  0001 C CNN
+F 4 "X" H 13550 7050 60  0001 C CNN "Characteristics"
+F 5 "CONN HEADER .100\" DUAL STR 36POS" H 13550 7050 60  0001 C CNN "Description"
+F 6 "Sullins Connector Solutions" H 13550 7050 60  0001 C CNN "MFN"
+F 7 "Through Hole" H 13550 7050 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 13550 7050 60  0001 C CNN "Source"
+F 9 "Y" H 13550 7050 60  0001 C CNN "Critical"
+F 10 "X" H 13550 7050 60  0001 C CNN "Notes"
+F 11 "1" H 13550 7050 60  0001 C CNN "Populate"
+F 12 "X" H 13550 7050 60  0001 C CNN "MPN"
+	1    13550 7050
 	0    1    1    0   
 $EndComp
 $Comp
 L GNDD #PWR01
 U 1 1 58FCB2DA
-P 13000 2400
-F 0 "#PWR01" H 13000 2150 50  0001 C CNN
-F 1 "GNDD" H 13000 2250 50  0000 C CNN
-F 2 "" H 13000 2400 50  0001 C CNN
-F 3 "" H 13000 2400 50  0001 C CNN
-	1    13000 2400
+P 15600 4350
+F 0 "#PWR01" H 15600 4100 50  0001 C CNN
+F 1 "GNDD" H 15600 4200 50  0000 C CNN
+F 2 "" H 15600 4350 50  0001 C CNN
+F 3 "" H 15600 4350 50  0001 C CNN
+	1    15600 4350
 	1    0    0    -1  
 $EndComp
-Text Notes 10200 1500 0    60   ~ 0
+Text Notes 12800 3450 0    60   ~ 0
 GNDD is Arduino Ground\nGND is external PSU Ground\nNo Connect pins are pass through
 $Comp
 L GNDD #PWR02
 U 1 1 58FCB7A0
-P 9000 2200
-F 0 "#PWR02" H 9000 1950 50  0001 C CNN
-F 1 "GNDD" H 9000 2050 50  0000 C CNN
-F 2 "" H 9000 2200 50  0001 C CNN
-F 3 "" H 9000 2200 50  0001 C CNN
-	1    9000 2200
+P 11600 4150
+F 0 "#PWR02" H 11600 3900 50  0001 C CNN
+F 1 "GNDD" H 11600 4000 50  0000 C CNN
+F 2 "" H 11600 4150 50  0001 C CNN
+F 3 "" H 11600 4150 50  0001 C CNN
+	1    11600 4150
 	1    0    0    -1  
 $EndComp
-Text Label 9250 2200 0    60   ~ 0
+Text Label 11850 4150 0    60   ~ 0
 PWM13
-Text Label 9250 2300 0    60   ~ 0
+Text Label 11850 4250 0    60   ~ 0
 PWM12
-Text Label 9250 2400 0    60   ~ 0
+Text Label 11850 4350 0    60   ~ 0
 PWM11
-Text Label 9250 2500 0    60   ~ 0
+Text Label 11850 4450 0    60   ~ 0
 PWM10
-Text Label 9250 2600 0    60   ~ 0
+Text Label 11850 4550 0    60   ~ 0
 PWM9
-Text Label 9250 2700 0    60   ~ 0
+Text Label 11850 4650 0    60   ~ 0
 PWM8
-Text Label 9250 2900 0    60   ~ 0
+Text Label 11850 4850 0    60   ~ 0
 PWM7
-Text Label 9250 3000 0    60   ~ 0
+Text Label 11850 4950 0    60   ~ 0
 PWM6
-Text Label 9250 3100 0    60   ~ 0
+Text Label 11850 5050 0    60   ~ 0
 PWM5
-Text Label 9250 3200 0    60   ~ 0
+Text Label 11850 5150 0    60   ~ 0
 PWM4
-Text Label 9250 3300 0    60   ~ 0
+Text Label 11850 5250 0    60   ~ 0
 PWM3
-Text Label 9250 3400 0    60   ~ 0
+Text Label 11850 5350 0    60   ~ 0
 PWM2
 $Comp
 L GNDD #PWR03
 U 1 1 58FCBB63
-P 12200 5550
-F 0 "#PWR03" H 12200 5300 50  0001 C CNN
-F 1 "GNDD" H 12200 5400 50  0000 C CNN
-F 2 "" H 12200 5550 50  0001 C CNN
-F 3 "" H 12200 5550 50  0001 C CNN
-	1    12200 5550
+P 14800 7500
+F 0 "#PWR03" H 14800 7250 50  0001 C CNN
+F 1 "GNDD" H 14800 7350 50  0000 C CNN
+F 2 "" H 14800 7500 50  0001 C CNN
+F 3 "" H 14800 7500 50  0001 C CNN
+	1    14800 7500
 	1    0    0    -1  
 $EndComp
-Text Label 11700 4450 3    60   ~ 0
+Text Label 14300 6400 3    60   ~ 0
 DIN52
-Text Label 11600 4450 3    60   ~ 0
+Text Label 14200 6400 3    60   ~ 0
 DIN50
-Text Label 11500 4450 3    60   ~ 0
+Text Label 14100 6400 3    60   ~ 0
 DIN48
-Text Label 11400 4450 3    60   ~ 0
+Text Label 14000 6400 3    60   ~ 0
 DIN46
-Text Label 11300 4450 3    60   ~ 0
+Text Label 13900 6400 3    60   ~ 0
 DIN44
-Text Label 11200 4450 3    60   ~ 0
+Text Label 13800 6400 3    60   ~ 0
 DIN42
-Text Label 11100 4450 3    60   ~ 0
+Text Label 13700 6400 3    60   ~ 0
 DIN40
-Text Label 11000 4450 3    60   ~ 0
+Text Label 13600 6400 3    60   ~ 0
 DIN38
-Text Label 10900 4450 3    60   ~ 0
+Text Label 13500 6400 3    60   ~ 0
 DIN36
-Text Label 10800 4450 3    60   ~ 0
+Text Label 13400 6400 3    60   ~ 0
 DIN34
-Text Label 10700 4450 3    60   ~ 0
+Text Label 13300 6400 3    60   ~ 0
 DIN32
-Text Label 10600 4450 3    60   ~ 0
+Text Label 13200 6400 3    60   ~ 0
 DIN30
-Text Label 10500 4450 3    60   ~ 0
+Text Label 13100 6400 3    60   ~ 0
 DIN28
-Text Label 10400 4450 3    60   ~ 0
+Text Label 13000 6400 3    60   ~ 0
 DIN26
-Text Label 10300 4450 3    60   ~ 0
+Text Label 12900 6400 3    60   ~ 0
 DIN24
-Text Label 10200 4450 3    60   ~ 0
+Text Label 12800 6400 3    60   ~ 0
 DIN22
-Text Label 11600 5750 1    60   ~ 0
+Text Label 14200 7700 1    60   ~ 0
 DIN51
-Text Label 11500 5750 1    60   ~ 0
+Text Label 14100 7700 1    60   ~ 0
 DIN49
-Text Label 11400 5750 1    60   ~ 0
+Text Label 14000 7700 1    60   ~ 0
 DIN47
-Text Label 11300 5750 1    60   ~ 0
+Text Label 13900 7700 1    60   ~ 0
 DIN45
-Text Label 11200 5750 1    60   ~ 0
+Text Label 13800 7700 1    60   ~ 0
 DIN43
-Text Label 11100 5750 1    60   ~ 0
+Text Label 13700 7700 1    60   ~ 0
 DIN41
-Text Label 11000 5750 1    60   ~ 0
+Text Label 13600 7700 1    60   ~ 0
 DIN39
-Text Label 10900 5750 1    60   ~ 0
+Text Label 13500 7700 1    60   ~ 0
 DIN37
-Text Label 10800 5750 1    60   ~ 0
+Text Label 13400 7700 1    60   ~ 0
 DIN35
-Text Label 10700 5750 1    60   ~ 0
+Text Label 13300 7700 1    60   ~ 0
 DIN33
-Text Label 10600 5750 1    60   ~ 0
+Text Label 13200 7700 1    60   ~ 0
 DIN31
-Text Label 10500 5750 1    60   ~ 0
+Text Label 13100 7700 1    60   ~ 0
 DIN29
-Text Label 10400 5750 1    60   ~ 0
+Text Label 13000 7700 1    60   ~ 0
 DIN27
-Text Label 10300 5750 1    60   ~ 0
+Text Label 12900 7700 1    60   ~ 0
 DIN25
-Text Label 10200 5750 1    60   ~ 0
+Text Label 12800 7700 1    60   ~ 0
 DIN23
-Text Notes 10250 2700 0    60   ~ 0
-Arduino Mega 2560 Base Board\nDigital Isolation Only\nArduino snaps into this board\n\n45 Digital Inputs
+Text Notes 12850 4550 0    60   ~ 0
+Arduino Mega 2560 Base Board\nDigital Isolation Only\nArduino snaps into this board\nTOP VIEW\n\n45 Digital Inputs
 $Comp
 L +5V #PWR04
 U 1 1 58FCCFA3
-P 9700 4750
-F 0 "#PWR04" H 9700 4600 50  0001 C CNN
-F 1 "+5V" H 9700 4890 50  0000 C CNN
-F 2 "" H 9700 4750 50  0001 C CNN
-F 3 "" H 9700 4750 50  0001 C CNN
-	1    9700 4750
+P 12300 6700
+F 0 "#PWR04" H 12300 6550 50  0001 C CNN
+F 1 "+5V" H 12300 6840 50  0000 C CNN
+F 2 "" H 12300 6700 50  0001 C CNN
+F 3 "" H 12300 6700 50  0001 C CNN
+	1    12300 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D105
 U 1 1 58FD2BAD
-P 10900 3700
-F 0 "D105" H 10900 3800 50  0000 C CNN
-F 1 "PWR_LED" H 10900 3550 50  0000 C CNN
-F 2 "LEDs:LED_1206" H 10900 3700 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/1101W_Series.pdf" H 10900 3700 50  0001 C CNN
-F 4 "PG1101W-TR" H 10900 3700 60  0001 C CNN "MPN"
-F 5 "Stanley Electric Company" H 10900 3700 60  0001 C CNN "MFN"
-F 6 "X" H 10900 3700 60  0001 C CNN "Characteristics"
-F 7 "LED GREEN CLEAR 1206 SMD" H 10900 3700 60  0001 C CNN "Description"
-F 8 "1206" H 10900 3700 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 10900 3700 60  0001 C CNN "Source"
-F 10 "Y" H 10900 3700 60  0001 C CNN "Critical"
-F 11 "X" H 10900 3700 60  0001 C CNN "Notes"
-	1    10900 3700
+P 13500 5650
+F 0 "D105" H 13500 5750 50  0000 C CNN
+F 1 "PWR_LED" H 13500 5500 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 13500 5650 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/1101W_Series.pdf" H 13500 5650 50  0001 C CNN
+F 4 "PG1101W-TR" H 13500 5650 60  0001 C CNN "MPN"
+F 5 "Stanley Electric Company" H 13500 5650 60  0001 C CNN "MFN"
+F 6 "X" H 13500 5650 60  0001 C CNN "Characteristics"
+F 7 "LED GREEN CLEAR 1206 SMD" H 13500 5650 60  0001 C CNN "Description"
+F 8 "1206" H 13500 5650 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 13500 5650 60  0001 C CNN "Source"
+F 10 "Y" H 13500 5650 60  0001 C CNN "Critical"
+F 11 "X" H 13500 5650 60  0001 C CNN "Notes"
+	1    13500 5650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R101
 U 1 1 58FD2CEA
-P 10900 3350
-F 0 "R101" V 10980 3350 50  0000 C CNN
-F 1 "330" V 10900 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10830 3350 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C291.pdf" H 10900 3350 50  0001 C CNN
-F 4 "ERJ-P06J331V" H 10900 3350 60  0001 C CNN "MPN"
-F 5 "Panasonic Electronics" H 10900 3350 60  0001 C CNN "MFN"
-F 6 "X" H 10900 3350 60  0001 C CNN "Characteristics"
-F 7 "RES SMD 330 OHM 5% 1/2W 0805" H 10900 3350 60  0001 C CNN "Description"
-F 8 "0805" H 10900 3350 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 10900 3350 60  0001 C CNN "Source"
-F 10 "Y" H 10900 3350 60  0001 C CNN "Critical"
-F 11 "X" H 10900 3350 60  0001 C CNN "Notes"
-	1    10900 3350
+P 13500 5300
+F 0 "R101" V 13580 5300 50  0000 C CNN
+F 1 "330" V 13500 5300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 13430 5300 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C291.pdf" H 13500 5300 50  0001 C CNN
+F 4 "ERJ-P06J331V" H 13500 5300 60  0001 C CNN "MPN"
+F 5 "Panasonic Electronics" H 13500 5300 60  0001 C CNN "MFN"
+F 6 "X" H 13500 5300 60  0001 C CNN "Characteristics"
+F 7 "RES SMD 330 OHM 5% 1/2W 0805" H 13500 5300 60  0001 C CNN "Description"
+F 8 "0805" H 13500 5300 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 13500 5300 60  0001 C CNN "Source"
+F 10 "Y" H 13500 5300 60  0001 C CNN "Critical"
+F 11 "X" H 13500 5300 60  0001 C CNN "Notes"
+	1    13500 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR05
 U 1 1 58FD2DC5
-P 10900 3100
-F 0 "#PWR05" H 10900 2950 50  0001 C CNN
-F 1 "+5V" H 10900 3240 50  0000 C CNN
-F 2 "" H 10900 3100 50  0001 C CNN
-F 3 "" H 10900 3100 50  0001 C CNN
-	1    10900 3100
+P 13500 5050
+F 0 "#PWR05" H 13500 4900 50  0001 C CNN
+F 1 "+5V" H 13500 5190 50  0000 C CNN
+F 2 "" H 13500 5050 50  0001 C CNN
+F 3 "" H 13500 5050 50  0001 C CNN
+	1    13500 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L GNDD #PWR06
 U 1 1 58FD2EBC
-P 10900 3950
-F 0 "#PWR06" H 10900 3700 50  0001 C CNN
-F 1 "GNDD" H 10900 3800 50  0000 C CNN
-F 2 "" H 10900 3950 50  0001 C CNN
-F 3 "" H 10900 3950 50  0001 C CNN
-	1    10900 3950
+P 13500 5900
+F 0 "#PWR06" H 13500 5650 50  0001 C CNN
+F 1 "GNDD" H 13500 5750 50  0000 C CNN
+F 2 "" H 13500 5900 50  0001 C CNN
+F 3 "" H 13500 5900 50  0001 C CNN
+	1    13500 5900
 	1    0    0    -1  
 $EndComp
-Text Label 8000 1350 2    60   ~ 0
+Text Label 10250 2550 2    60   ~ 0
 PWM13
-Text Label 8000 1500 2    60   ~ 0
+Text Label 10250 2700 2    60   ~ 0
 PWM12
-Text Label 8000 1650 2    60   ~ 0
+Text Label 10250 2850 2    60   ~ 0
 PWM11
-Text Label 8000 1950 2    60   ~ 0
+Text Label 10250 3150 2    60   ~ 0
 PWM9
-Text Label 8000 2100 2    60   ~ 0
+Text Label 10250 3300 2    60   ~ 0
 PWM8
-Text Label 8000 2250 2    60   ~ 0
+Text Label 10250 3450 2    60   ~ 0
 PWM7
-Text Label 8000 2400 2    60   ~ 0
+Text Label 10250 3600 2    60   ~ 0
 PWM6
-Text Label 8000 2550 2    60   ~ 0
+Text Label 10250 3750 2    60   ~ 0
 PWM5
-Text Label 8000 2700 2    60   ~ 0
+Text Label 10250 3900 2    60   ~ 0
 PWM4
-Text Label 8000 2850 2    60   ~ 0
+Text Label 10250 4050 2    60   ~ 0
 PWM3
-Text Label 8000 3000 2    60   ~ 0
+Text Label 10250 4200 2    60   ~ 0
 PWM2
-Text Label 3650 4050 0    60   ~ 0
+Text Label 5450 5150 0    60   ~ 0
 DIN52
-Text Label 3650 3700 0    60   ~ 0
+Text Label 5450 4800 0    60   ~ 0
 DIN51
-Text Label 3650 3850 0    60   ~ 0
+Text Label 5450 4950 0    60   ~ 0
 DIN50
-Text Label 8000 3750 2    60   ~ 0
+Text Label 10250 4950 2    60   ~ 0
 DIN49
-Text Label 8000 3900 2    60   ~ 0
+Text Label 10250 5100 2    60   ~ 0
 DIN48
-Text Label 8000 4050 2    60   ~ 0
+Text Label 10250 5250 2    60   ~ 0
 DIN47
-Text Label 8000 4200 2    60   ~ 0
+Text Label 10250 5400 2    60   ~ 0
 DIN46
-Wire Wire Line
-	12250 2300 13000 2300
-Wire Wire Line
-	13000 2300 13000 2400
-Wire Wire Line
-	13000 2400 12250 2400
-Wire Wire Line
-	9650 2100 9000 2100
-Wire Wire Line
-	9650 2300 9250 2300
-Wire Wire Line
-	9650 2200 9250 2200
-Wire Wire Line
-	9650 2500 9250 2500
-Wire Wire Line
-	9650 2400 9250 2400
-Wire Wire Line
-	9650 2700 9250 2700
-Wire Wire Line
-	9650 2600 9250 2600
-Wire Wire Line
-	9650 3000 9250 3000
-Wire Wire Line
-	9650 2900 9250 2900
-Wire Wire Line
-	9650 3200 9250 3200
-Wire Wire Line
-	9650 3100 9250 3100
-Wire Wire Line
-	9650 3400 9250 3400
-Wire Wire Line
-	9650 3300 9250 3300
-Wire Wire Line
-	11800 4850 12200 4850
-Wire Wire Line
-	12200 4850 12200 5550
-Wire Wire Line
-	11800 5350 12200 5350
-Connection ~ 12200 5350
-Wire Wire Line
-	11700 4850 11700 4450
-Wire Wire Line
-	11600 4850 11600 4450
-Wire Wire Line
-	11500 4850 11500 4450
-Wire Wire Line
-	11400 4850 11400 4450
-Wire Wire Line
-	11300 4850 11300 4450
-Wire Wire Line
-	11200 4850 11200 4450
-Wire Wire Line
-	11100 4850 11100 4450
-Wire Wire Line
-	11000 4850 11000 4450
-Wire Wire Line
-	10900 4850 10900 4450
-Wire Wire Line
-	10800 4850 10800 4450
-Wire Wire Line
-	10700 4850 10700 4450
-Wire Wire Line
-	10600 4850 10600 4450
-Wire Wire Line
-	10500 4850 10500 4450
-Wire Wire Line
-	10400 4850 10400 4450
-Wire Wire Line
-	10300 4850 10300 4450
-Wire Wire Line
-	10200 5750 10200 5350
-Wire Wire Line
-	10200 4850 10200 4450
-Wire Wire Line
-	10300 5350 10300 5750
-Wire Wire Line
-	10400 5750 10400 5350
-Wire Wire Line
-	10500 5350 10500 5750
-Wire Wire Line
-	10600 5750 10600 5350
-Wire Wire Line
-	10700 5350 10700 5750
-Wire Wire Line
-	10800 5750 10800 5350
-Wire Wire Line
-	10900 5350 10900 5750
-Wire Wire Line
-	11000 5750 11000 5350
-Wire Wire Line
-	11100 5350 11100 5750
-Wire Wire Line
-	11200 5750 11200 5350
-Wire Wire Line
-	11300 5350 11300 5750
-Wire Wire Line
-	11400 5750 11400 5350
-Wire Wire Line
-	11500 5350 11500 5750
-Wire Wire Line
-	11600 5750 11600 5350
-Wire Wire Line
-	9700 4850 10100 4850
-Wire Wire Line
-	9700 5350 10100 5350
-Wire Wire Line
-	9700 4750 9700 5350
-Connection ~ 9700 4850
-Wire Wire Line
-	10900 3500 10900 3550
-Wire Wire Line
-	10900 3100 10900 3200
-Wire Wire Line
-	10900 3850 10900 3950
-Wire Wire Line
-	7500 1350 8000 1350
-Wire Wire Line
-	7500 1500 8000 1500
-Wire Wire Line
-	7500 1650 8000 1650
-Wire Wire Line
-	7500 1950 8000 1950
-Wire Wire Line
-	7500 2100 8000 2100
-Wire Wire Line
-	7500 2250 8000 2250
-Wire Wire Line
-	7500 2400 8000 2400
-Wire Wire Line
-	7500 2550 8000 2550
-Wire Wire Line
-	7500 2700 8000 2700
-Wire Wire Line
-	7500 2850 8000 2850
-Wire Wire Line
-	7500 3000 8000 3000
-Wire Wire Line
-	7500 3750 8000 3750
-Wire Wire Line
-	7500 3900 8000 3900
-Wire Wire Line
-	7500 4050 8000 4050
-Wire Wire Line
-	7500 4200 8000 4200
-Wire Wire Line
-	7500 4350 8000 4350
-Wire Wire Line
-	7500 4500 8000 4500
-Wire Wire Line
-	7500 4650 8000 4650
-Wire Wire Line
-	7500 4800 8000 4800
-Wire Wire Line
-	7500 4950 8000 4950
-Wire Wire Line
-	7500 5100 8000 5100
-Wire Wire Line
-	7500 5250 8000 5250
-Wire Wire Line
-	7500 5400 8000 5400
-Wire Wire Line
-	7500 5550 8000 5550
-Wire Wire Line
-	7500 5700 8000 5700
-Text Label 8000 4350 2    60   ~ 0
+Text Label 10250 5550 2    60   ~ 0
 DIN45
-Text Label 8000 4500 2    60   ~ 0
+Text Label 10250 5700 2    60   ~ 0
 DIN44
-Text Label 8000 4650 2    60   ~ 0
+Text Label 10250 5850 2    60   ~ 0
 DIN43
-Text Label 8000 4800 2    60   ~ 0
+Text Label 10250 6000 2    60   ~ 0
 DIN42
-Text Label 8000 4950 2    60   ~ 0
+Text Label 10250 6150 2    60   ~ 0
 DIN41
-Text Label 8000 5100 2    60   ~ 0
+Text Label 10250 6300 2    60   ~ 0
 DIN40
-Text Label 8000 5250 2    60   ~ 0
+Text Label 10250 6450 2    60   ~ 0
 DIN39
-Text Label 8000 5400 2    60   ~ 0
+Text Label 10250 6600 2    60   ~ 0
 DIN38
-Text Label 8000 5550 2    60   ~ 0
+Text Label 10250 6750 2    60   ~ 0
 DIN37
-Text Label 8000 5700 2    60   ~ 0
+Text Label 10250 6900 2    60   ~ 0
 DIN36
-Wire Wire Line
-	7500 5850 8000 5850
-Wire Wire Line
-	7500 6000 8000 6000
-Wire Wire Line
-	7500 6150 8000 6150
-Wire Wire Line
-	7500 6300 8000 6300
-Wire Wire Line
-	7500 6450 8000 6450
-Wire Wire Line
-	7500 6600 8000 6600
-Wire Wire Line
-	7500 6750 8000 6750
-Wire Wire Line
-	7500 6900 8000 6900
-Wire Wire Line
-	7500 7050 8000 7050
-Wire Wire Line
-	7500 7200 8000 7200
-Wire Wire Line
-	7500 7800 8000 7800
-Wire Wire Line
-	7500 7650 8000 7650
-Wire Wire Line
-	7500 7500 8000 7500
-Wire Wire Line
-	7500 7350 8000 7350
-Text Label 8000 5850 2    60   ~ 0
+Text Label 10250 7050 2    60   ~ 0
 DIN35
-Text Label 8000 6000 2    60   ~ 0
+Text Label 10250 7200 2    60   ~ 0
 DIN34
-Text Label 8000 6150 2    60   ~ 0
+Text Label 10250 7350 2    60   ~ 0
 DIN33
-Text Label 8000 6300 2    60   ~ 0
+Text Label 10250 7500 2    60   ~ 0
 DIN32
-Text Label 8000 6450 2    60   ~ 0
+Text Label 10250 7650 2    60   ~ 0
 DIN31
-Text Label 8000 6600 2    60   ~ 0
+Text Label 10250 7800 2    60   ~ 0
 DIN30
-Text Label 8000 6750 2    60   ~ 0
+Text Label 10250 7950 2    60   ~ 0
 DIN29
-Text Label 8000 6900 2    60   ~ 0
+Text Label 10250 8100 2    60   ~ 0
 DIN28
-Text Label 8000 7050 2    60   ~ 0
+Text Label 10250 8250 2    60   ~ 0
 DIN27
-Text Label 8000 7200 2    60   ~ 0
+Text Label 10250 8400 2    60   ~ 0
 DIN26
-Text Label 8000 7350 2    60   ~ 0
+Text Label 10250 8550 2    60   ~ 0
 DIN25
-Text Label 8000 7500 2    60   ~ 0
+Text Label 10250 8700 2    60   ~ 0
 DIN24
-Text Label 8000 7650 2    60   ~ 0
+Text Label 10250 8850 2    60   ~ 0
 DIN23
-Text Label 8000 7800 2    60   ~ 0
+Text Label 10250 9000 2    60   ~ 0
 DIN22
 $Comp
 L CONN_01X36 J108
 U 1 1 5902B79A
-P 2250 3450
-F 0 "J108" H 2250 5300 50  0000 C CNN
-F 1 "CONN_01X36" V 2350 3450 50  0000 C CNN
-F 2 "3ML_Footprint_Library:Phoenix_1727832" H 2250 3450 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1727832.pdf" H 2250 3450 50  0001 C CNN
-F 4 "1727832" H 2250 3450 60  0001 C CNN "MPN"
-F 5 "Phoenix Contact" H 2250 3450 60  0001 C CNN "MFN"
-F 6 "X" H 2250 3450 60  0001 C CNN "Characteristics"
-F 7 "CONN TERM BLK 3LVL 12POS 3.81MM" H 2250 3450 60  0001 C CNN "Description"
-F 8 "X" H 2250 3450 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 2250 3450 60  0001 C CNN "Source"
-F 10 "Y" H 2250 3450 60  0001 C CNN "Critical"
-F 11 "X" H 2250 3450 60  0001 C CNN "Notes"
-	1    2250 3450
+P 3050 4350
+F 0 "J108" H 3050 6200 50  0000 C CNN
+F 1 "CONN_01X36" V 3150 4350 50  0000 C CNN
+F 2 "3ML_Footprint_Library:Phoenix_1727832" H 3050 4350 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1727832.pdf" H 3050 4350 50  0001 C CNN
+F 4 "1727832" H 3050 4350 60  0001 C CNN "MPN"
+F 5 "Phoenix Contact" H 3050 4350 60  0001 C CNN "MFN"
+F 6 "X" H 3050 4350 60  0001 C CNN "Characteristics"
+F 7 "CONN TERM BLK 3LVL 12POS 3.81MM" H 3050 4350 60  0001 C CNN "Description"
+F 8 "X" H 3050 4350 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 3050 4350 60  0001 C CNN "Source"
+F 10 "Y" H 3050 4350 60  0001 C CNN "Critical"
+F 11 "X" H 3050 4350 60  0001 C CNN "Notes"
+	1    3050 4350
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5550 3750 6050 3750
-Wire Wire Line
-	5550 3900 6050 3900
-Wire Wire Line
-	5550 4050 6050 4050
-Wire Wire Line
-	5550 4200 6050 4200
-Wire Wire Line
-	5550 4350 6050 4350
-Wire Wire Line
-	5550 4500 6050 4500
-Wire Wire Line
-	5550 4650 6050 4650
-Wire Wire Line
-	5550 4800 6050 4800
-Wire Wire Line
-	5550 4950 6050 4950
-Wire Wire Line
-	5550 5100 6050 5100
-Wire Wire Line
-	5550 5250 6050 5250
-Wire Wire Line
-	5550 5400 6050 5400
-Wire Wire Line
-	5550 5550 6050 5550
-Wire Wire Line
-	5550 5700 6050 5700
-Wire Wire Line
-	5550 5850 6050 5850
-Wire Wire Line
-	5550 6000 6050 6000
-Wire Wire Line
-	5550 6150 6050 6150
-Wire Wire Line
-	5550 6300 6050 6300
-Wire Wire Line
-	5550 6450 6050 6450
-Wire Wire Line
-	5550 6600 6050 6600
-Wire Wire Line
-	5550 6750 6050 6750
-Wire Wire Line
-	5550 6900 6050 6900
-Wire Wire Line
-	5550 7050 6050 7050
-Wire Wire Line
-	5550 7200 6050 7200
-Wire Wire Line
-	5550 7350 6050 7350
-Wire Wire Line
-	5550 7500 6050 7500
-Wire Wire Line
-	5550 7650 6050 7650
-Wire Wire Line
-	5550 7800 6050 7800
-Text Label 5550 7800 0    60   ~ 0
+Text Label 7800 9000 0    60   ~ 0
 F_DIN22
-Text Label 5550 7650 0    60   ~ 0
+Text Label 7800 8850 0    60   ~ 0
 F_DIN23
-Text Label 5550 7500 0    60   ~ 0
+Text Label 7800 8700 0    60   ~ 0
 F_DIN24
-Text Label 5550 7350 0    60   ~ 0
+Text Label 7800 8550 0    60   ~ 0
 F_DIN25
-Text Label 5550 7200 0    60   ~ 0
+Text Label 7800 8400 0    60   ~ 0
 F_DIN26
-Text Label 5550 7050 0    60   ~ 0
+Text Label 7800 8250 0    60   ~ 0
 F_DIN27
-Text Label 5550 6900 0    60   ~ 0
+Text Label 7800 8100 0    60   ~ 0
 F_DIN28
-Text Label 5550 6750 0    60   ~ 0
+Text Label 7800 7950 0    60   ~ 0
 F_DIN29
-Text Label 5550 6600 0    60   ~ 0
+Text Label 7800 7800 0    60   ~ 0
 F_DIN30
-Wire Wire Line
-	2450 5100 3050 5100
-Wire Wire Line
-	2450 5000 3050 5000
-Wire Wire Line
-	2450 4900 3050 4900
-Wire Wire Line
-	2450 4800 3050 4800
-Wire Wire Line
-	2450 4700 3050 4700
-Wire Wire Line
-	2450 4600 3050 4600
-Wire Wire Line
-	2450 4500 3050 4500
-Wire Wire Line
-	2450 4400 3050 4400
-Wire Wire Line
-	2450 4300 3050 4300
-Wire Wire Line
-	2450 4200 3050 4200
-Text Label 3050 5100 2    60   ~ 0
+Text Label 3850 6000 2    60   ~ 0
 F_DIN22
-Text Label 3050 5000 2    60   ~ 0
+Text Label 3850 5900 2    60   ~ 0
 F_DIN23
-Text Label 3050 4900 2    60   ~ 0
+Text Label 3850 5800 2    60   ~ 0
 F_DIN24
-Text Label 3050 4800 2    60   ~ 0
+Text Label 3850 5700 2    60   ~ 0
 F_DIN25
-Text Label 3050 4700 2    60   ~ 0
+Text Label 3850 5600 2    60   ~ 0
 F_DIN26
-Text Label 3050 4600 2    60   ~ 0
+Text Label 3850 5500 2    60   ~ 0
 F_DIN27
-Text Label 3050 4500 2    60   ~ 0
+Text Label 3850 5400 2    60   ~ 0
 F_DIN28
-Text Label 3050 4400 2    60   ~ 0
+Text Label 3850 5300 2    60   ~ 0
 F_DIN29
-Text Label 3050 4300 2    60   ~ 0
+Text Label 3850 5200 2    60   ~ 0
 F_DIN30
-Text Label 5550 6450 0    60   ~ 0
+Text Label 7800 7650 0    60   ~ 0
 F_DIN31
-Text Label 3050 4200 2    60   ~ 0
+Text Label 3850 5100 2    60   ~ 0
 F_DIN31
-Wire Wire Line
-	2450 4000 3000 4000
-Wire Wire Line
-	2450 3900 3000 3900
-Wire Wire Line
-	2450 3800 3000 3800
-Wire Wire Line
-	2450 3700 3000 3700
-Wire Wire Line
-	2450 3600 3000 3600
-Wire Wire Line
-	2450 3500 3000 3500
-Wire Wire Line
-	2450 3400 3000 3400
-Text Label 5550 6300 0    60   ~ 0
+Text Label 7800 7500 0    60   ~ 0
 F_DIN32
-Text Label 5550 6150 0    60   ~ 0
+Text Label 7800 7350 0    60   ~ 0
 F_DIN33
-Text Label 5550 6000 0    60   ~ 0
+Text Label 7800 7200 0    60   ~ 0
 F_DIN34
-Text Label 5550 5850 0    60   ~ 0
+Text Label 7800 7050 0    60   ~ 0
 F_DIN35
-Text Label 5550 5700 0    60   ~ 0
+Text Label 7800 6900 0    60   ~ 0
 F_DIN36
-Text Label 5550 5550 0    60   ~ 0
+Text Label 7800 6750 0    60   ~ 0
 F_DIN37
-Text Label 3000 4000 2    60   ~ 0
+Text Label 3800 4900 2    60   ~ 0
 F_DIN32
-Text Label 3000 3900 2    60   ~ 0
+Text Label 3800 4800 2    60   ~ 0
 F_DIN33
-Text Label 3000 3800 2    60   ~ 0
+Text Label 3800 4700 2    60   ~ 0
 F_DIN34
-Text Label 3000 3700 2    60   ~ 0
+Text Label 3800 4600 2    60   ~ 0
 F_DIN35
-Text Label 3000 3600 2    60   ~ 0
+Text Label 3800 4500 2    60   ~ 0
 F_DIN36
-Text Label 3000 3500 2    60   ~ 0
+Text Label 3800 4400 2    60   ~ 0
 F_DIN37
-Text Label 5550 5400 0    60   ~ 0
+Text Label 7800 6600 0    60   ~ 0
 F_DIN38
-Text Label 5550 5250 0    60   ~ 0
+Text Label 7800 6450 0    60   ~ 0
 F_DIN39
-Text Label 5550 5100 0    60   ~ 0
+Text Label 7800 6300 0    60   ~ 0
 F_DIN40
-Text Label 5550 4950 0    60   ~ 0
+Text Label 7800 6150 0    60   ~ 0
 F_DIN41
-Text Label 5550 4800 0    60   ~ 0
+Text Label 7800 6000 0    60   ~ 0
 F_DIN42
-Text Label 5550 4650 0    60   ~ 0
+Text Label 7800 5850 0    60   ~ 0
 F_DIN43
-Text Label 5550 4500 0    60   ~ 0
+Text Label 7800 5700 0    60   ~ 0
 F_DIN44
-Text Label 5550 4350 0    60   ~ 0
+Text Label 7800 5550 0    60   ~ 0
 F_DIN45
-Text Label 5550 4200 0    60   ~ 0
+Text Label 7800 5400 0    60   ~ 0
 F_DIN46
-Text Label 5550 4050 0    60   ~ 0
+Text Label 7800 5250 0    60   ~ 0
 F_DIN47
-Text Label 5550 3900 0    60   ~ 0
+Text Label 7800 5100 0    60   ~ 0
 F_DIN48
-Text Label 5550 3750 0    60   ~ 0
+Text Label 7800 4950 0    60   ~ 0
 F_DIN49
-Wire Wire Line
-	2450 3300 3000 3300
-Wire Wire Line
-	2450 3200 3000 3200
-Wire Wire Line
-	2450 3100 3000 3100
-Wire Wire Line
-	2450 3000 3000 3000
-Wire Wire Line
-	2450 2700 3000 2700
-Wire Wire Line
-	2450 2600 3000 2600
-Wire Wire Line
-	2450 2500 3000 2500
-Wire Wire Line
-	2450 2400 3000 2400
-Wire Wire Line
-	2450 2300 3000 2300
-Wire Wire Line
-	2450 2200 3000 2200
-Wire Wire Line
-	2450 1700 3350 1700
-Text Label 3000 3400 2    60   ~ 0
+Text Label 3800 4300 2    60   ~ 0
 F_DIN38
-Text Label 3000 3300 2    60   ~ 0
+Text Label 3800 4200 2    60   ~ 0
 F_DIN39
-Text Label 3000 3200 2    60   ~ 0
+Text Label 3800 4100 2    60   ~ 0
 F_DIN40
-Text Label 3000 3100 2    60   ~ 0
+Text Label 3800 4000 2    60   ~ 0
 F_DIN41
-Text Label 3000 3000 2    60   ~ 0
+Text Label 3800 3900 2    60   ~ 0
 F_DIN42
-Text Label 3000 2900 2    60   ~ 0
+Text Label 3800 3800 2    60   ~ 0
 F_DIN43
-Text Label 3000 2700 2    60   ~ 0
+Text Label 3800 3600 2    60   ~ 0
 F_DIN44
-Text Label 3000 2600 2    60   ~ 0
+Text Label 3800 3500 2    60   ~ 0
 F_DIN45
-Text Label 3000 2500 2    60   ~ 0
+Text Label 3800 3400 2    60   ~ 0
 F_DIN46
-Text Label 3000 2400 2    60   ~ 0
+Text Label 3800 3300 2    60   ~ 0
 F_DIN47
-Text Label 3000 2300 2    60   ~ 0
+Text Label 3800 3200 2    60   ~ 0
 F_DIN48
-Text Label 3000 2200 2    60   ~ 0
+Text Label 3800 3100 2    60   ~ 0
 F_DIN49
-Wire Wire Line
-	2450 2900 3000 2900
-Text Notes 2150 1550 0    60   ~ 0
+Text Notes 2950 2450 0    60   ~ 0
 3 Level 36 Pos Connector
-$Comp
-L CONN_01X02 J107
-U 1 1 59054842
-P 900 6000
-F 0 "J107" H 900 6150 50  0000 C CNN
-F 1 "CONN_01X02" V 1000 6000 50  0000 C CNN
-F 2 "3ML_Footprint_Library:Wurth_691103010002" H 900 6000 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/download/STEP-691103110002-rev1.stp" H 900 6000 50  0001 C CNN
-F 4 "691103110002" H 900 6000 60  0001 C CNN "MPN"
-F 5 "Wurth Electronics Inc" H 900 6000 60  0001 C CNN "MFN"
-F 6 "X" H 900 6000 60  0001 C CNN "Characteristics"
-F 7 "TERM BLOCK 2POS HORIZ 3.5MM T/H" H 900 6000 60  0001 C CNN "Description"
-F 8 "Through Hole" H 900 6000 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 900 6000 60  0001 C CNN "Source"
-F 10 "Y" H 900 6000 60  0001 C CNN "Critical"
-F 11 "X" H 900 6000 60  0001 C CNN "Notes"
-	1    900  6000
-	-1   0    0    1   
-$EndComp
 $Comp
 L GND #PWR07
 U 1 1 59059872
-P 3350 2150
-F 0 "#PWR07" H 3350 1900 50  0001 C CNN
-F 1 "GND" H 3350 2000 50  0000 C CNN
-F 2 "" H 3350 2150 50  0001 C CNN
-F 3 "" H 3350 2150 50  0001 C CNN
-	1    3350 2150
+P 4150 3050
+F 0 "#PWR07" H 4150 2800 50  0001 C CNN
+F 1 "GND" H 4150 2900 50  0000 C CNN
+F 2 "" H 4150 3050 50  0001 C CNN
+F 3 "" H 4150 3050 50  0001 C CNN
+	1    4150 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1100 6050 1700 6050
-Wire Wire Line
-	1100 5500 1700 5500
-Wire Wire Line
-	1100 5950 1700 5950
-Wire Wire Line
-	1100 5400 1700 5400
-Wire Wire Line
-	1100 4950 1700 4950
-Wire Wire Line
-	1100 4400 1700 4400
-Wire Wire Line
-	1100 4850 1700 4850
-Wire Wire Line
-	1100 4300 1700 4300
-Wire Wire Line
-	1100 3850 1700 3850
-Wire Wire Line
-	1100 3300 1700 3300
-Wire Wire Line
-	1100 3200 1700 3200
-Wire Wire Line
-	6050 3000 5550 3000
-Wire Wire Line
-	6050 2850 5550 2850
-Wire Wire Line
-	6050 2700 5550 2700
-Wire Wire Line
-	6050 2550 5550 2550
-Wire Wire Line
-	6050 2400 5550 2400
-Wire Wire Line
-	6050 2250 5550 2250
-Wire Wire Line
-	6050 2100 5550 2100
-Wire Wire Line
-	6050 1950 5550 1950
-Wire Wire Line
-	6050 1650 5550 1650
-Wire Wire Line
-	6050 1500 5550 1500
-Wire Wire Line
-	6050 1350 5550 1350
-Text Label 5550 3000 0    60   ~ 0
+Text Label 7800 4200 0    60   ~ 0
 F_PWM2
-Text Label 5550 2700 0    60   ~ 0
+Text Label 7800 3900 0    60   ~ 0
 F_PWM4
-Text Label 5550 2850 0    60   ~ 0
+Text Label 7800 4050 0    60   ~ 0
 F_PWM3
-Text Label 5550 2550 0    60   ~ 0
+Text Label 7800 3750 0    60   ~ 0
 F_PWM5
-Text Label 5550 2400 0    60   ~ 0
+Text Label 7800 3600 0    60   ~ 0
 F_PWM6
-Text Label 5550 2250 0    60   ~ 0
+Text Label 7800 3450 0    60   ~ 0
 F_PWM7
-Text Label 5550 2100 0    60   ~ 0
+Text Label 7800 3300 0    60   ~ 0
 F_PWM8
-Text Label 5550 1950 0    60   ~ 0
+Text Label 7800 3150 0    60   ~ 0
 F_PWM9
-Text Label 5550 1650 0    60   ~ 0
+Text Label 7800 2850 0    60   ~ 0
 F_PWM11
-Text Label 5550 1500 0    60   ~ 0
+Text Label 7800 2700 0    60   ~ 0
 F_PWM12
-Text Label 5550 1350 0    60   ~ 0
+Text Label 7800 2550 0    60   ~ 0
 F_PWM13
-Text Label 1700 5950 2    60   ~ 0
+Text Label 1950 5250 2    60   ~ 0
 F_PWM2
-Text Label 1700 6050 2    60   ~ 0
+Text Label 1950 5350 2    60   ~ 0
 F_PWM3
-Text Label 1700 5400 2    60   ~ 0
+Text Label 1950 5050 2    60   ~ 0
 F_PWM4
-Text Label 1700 5500 2    60   ~ 0
+Text Label 1950 5150 2    60   ~ 0
 F_PWM5
-Text Label 1700 4850 2    60   ~ 0
+Text Label 1950 4850 2    60   ~ 0
 F_PWM6
-Text Label 1700 4950 2    60   ~ 0
+Text Label 1950 4950 2    60   ~ 0
 F_PWM7
-Text Label 1700 4300 2    60   ~ 0
+Text Label 1950 4650 2    60   ~ 0
 F_PWM8
-Text Label 1700 4400 2    60   ~ 0
+Text Label 1950 4750 2    60   ~ 0
 F_PWM9
-Text Label 1700 3850 2    60   ~ 0
+Text Label 1950 4550 2    60   ~ 0
 F_PWM11
-Text Label 1700 3200 2    60   ~ 0
+Text Label 1950 4250 2    60   ~ 0
 F_PWM12
-Text Label 1700 3300 2    60   ~ 0
+Text Label 1950 4350 2    60   ~ 0
 F_PWM13
-$Comp
-L CONN_01X02 J106
-U 1 1 59076CDC
-P 900 5450
-F 0 "J106" H 900 5600 50  0000 C CNN
-F 1 "CONN_01X02" V 1000 5450 50  0000 C CNN
-F 2 "3ML_Footprint_Library:Wurth_691103010002" H 900 5450 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/download/STEP-691103110002-rev1.stp" H 900 5450 50  0001 C CNN
-F 4 "691103110002" H 900 5450 60  0001 C CNN "MPN"
-F 5 "Wurth Electronics Inc" H 900 5450 60  0001 C CNN "MFN"
-F 6 "X" H 900 5450 60  0001 C CNN "Characteristics"
-F 7 "TERM BLOCK 2POS HORIZ 3.5MM T/H" H 900 5450 60  0001 C CNN "Description"
-F 8 "Through Hole" H 900 5450 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 900 5450 60  0001 C CNN "Source"
-F 10 "Y" H 900 5450 60  0001 C CNN "Critical"
-F 11 "X" H 900 5450 60  0001 C CNN "Notes"
-	1    900  5450
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X02 J105
-U 1 1 59076F34
-P 900 4900
-F 0 "J105" H 900 5050 50  0000 C CNN
-F 1 "CONN_01X02" V 1000 4900 50  0000 C CNN
-F 2 "3ML_Footprint_Library:Wurth_691103010002" H 900 4900 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/download/STEP-691103110002-rev1.stp" H 900 4900 50  0001 C CNN
-F 4 "691103110002" H 900 4900 60  0001 C CNN "MPN"
-F 5 "Wurth Electronics Inc" H 900 4900 60  0001 C CNN "MFN"
-F 6 "X" H 900 4900 60  0001 C CNN "Characteristics"
-F 7 "TERM BLOCK 2POS HORIZ 3.5MM T/H" H 900 4900 60  0001 C CNN "Description"
-F 8 "Through Hole" H 900 4900 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 900 4900 60  0001 C CNN "Source"
-F 10 "Y" H 900 4900 60  0001 C CNN "Critical"
-F 11 "X" H 900 4900 60  0001 C CNN "Notes"
-	1    900  4900
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X02 J104
-U 1 1 5907718F
-P 900 4350
-F 0 "J104" H 900 4500 50  0000 C CNN
-F 1 "CONN_01X02" V 1000 4350 50  0000 C CNN
-F 2 "3ML_Footprint_Library:Wurth_691103010002" H 900 4350 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/download/STEP-691103110002-rev1.stp" H 900 4350 50  0001 C CNN
-F 4 "691103110002" H 900 4350 60  0001 C CNN "MPN"
-F 5 "Wurth Electronics Inc" H 900 4350 60  0001 C CNN "MFN"
-F 6 "X" H 900 4350 60  0001 C CNN "Characteristics"
-F 7 "TERM BLOCK 2POS HORIZ 3.5MM T/H" H 900 4350 60  0001 C CNN "Description"
-F 8 "Through Hole" H 900 4350 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 900 4350 60  0001 C CNN "Source"
-F 10 "Y" H 900 4350 60  0001 C CNN "Critical"
-F 11 "X" H 900 4350 60  0001 C CNN "Notes"
-	1    900  4350
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X02 J103
-U 1 1 590773EF
-P 900 3800
-F 0 "J103" H 900 3950 50  0000 C CNN
-F 1 "CONN_01X02" V 1000 3800 50  0000 C CNN
-F 2 "3ML_Footprint_Library:Wurth_691103010002" H 900 3800 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/download/STEP-691103110002-rev1.stp" H 900 3800 50  0001 C CNN
-F 4 "691103110002" H 900 3800 60  0001 C CNN "MPN"
-F 5 "Wurth Electronics Inc" H 900 3800 60  0001 C CNN "MFN"
-F 6 "X" H 900 3800 60  0001 C CNN "Characteristics"
-F 7 "TERM BLOCK 2POS HORIZ 3.5MM T/H" H 900 3800 60  0001 C CNN "Description"
-F 8 "Through Hole" H 900 3800 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 900 3800 60  0001 C CNN "Source"
-F 10 "Y" H 900 3800 60  0001 C CNN "Critical"
-F 11 "X" H 900 3800 60  0001 C CNN "Notes"
-	1    900  3800
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X02 J102
-U 1 1 5907764C
-P 900 3250
-F 0 "J102" H 900 3400 50  0000 C CNN
-F 1 "CONN_01X02" V 1000 3250 50  0000 C CNN
-F 2 "3ML_Footprint_Library:Wurth_691103010002" H 900 3250 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/download/STEP-691103110002-rev1.stp" H 900 3250 50  0001 C CNN
-F 4 "691103110002" H 900 3250 60  0001 C CNN "MPN"
-F 5 "Wurth Electronics Inc" H 900 3250 60  0001 C CNN "MFN"
-F 6 "X" H 900 3250 60  0001 C CNN "Characteristics"
-F 7 "TERM BLOCK 2POS HORIZ 3.5MM T/H" H 900 3250 60  0001 C CNN "Description"
-F 8 "Through Hole" H 900 3250 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 900 3250 60  0001 C CNN "Source"
-F 10 "Y" H 900 3250 60  0001 C CNN "Critical"
-F 11 "X" H 900 3250 60  0001 C CNN "Notes"
-	1    900  3250
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X02 J101
-U 1 1 590778AE
-P 850 1150
-F 0 "J101" H 850 1300 50  0000 C CNN
-F 1 "CONN_01X02" V 950 1150 50  0000 C CNN
-F 2 "3ML_Footprint_Library:Wurth_691103010002" H 850 1150 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/download/STEP-691103110002-rev1.stp" H 850 1150 50  0001 C CNN
-F 4 "691103110002" H 850 1150 60  0001 C CNN "MPN"
-F 5 "Wurth Electronics Inc" H 850 1150 60  0001 C CNN "MFN"
-F 6 "X" H 850 1150 60  0001 C CNN "Characteristics"
-F 7 "TERM BLOCK 2POS HORIZ 3.5MM T/H" H 850 1150 60  0001 C CNN "Description"
-F 8 "Through Hole" H 850 1150 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 850 1150 60  0001 C CNN "Source"
-F 10 "Y" H 850 1150 60  0001 C CNN "Critical"
-F 11 "X" H 850 1150 60  0001 C CNN "Notes"
-	1    850  1150
-	-1   0    0    1   
-$EndComp
 $Comp
 L ACC_? ACC101
 U 1 1 58FD6DBD
-P 1050 6600
-F 0 "ACC101" H 1060 6740 60  0000 C CNN
-F 1 "ARDUINO_MEGA_OUTLINE" H 1050 6460 60  0000 C CNN
-F 2 "3ML_Footprint_Library:Arduino_Mega_2560__UPSIDE_DOWN_Footprint" H 1050 6600 60  0001 C CNN
-F 3 "" H 1050 6600 60  0001 C CNN
-F 4 "Value" H 1050 6600 60  0001 C CNN "MPN"
-F 5 "Value" H 1050 6600 60  0001 C CNN "MFN"
-F 6 "Value" H 1050 6600 60  0001 C CNN "Characteristics"
-F 7 "Value" H 1050 6600 60  0001 C CNN "Description"
-F 8 "Value" H 1050 6600 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 1050 6600 60  0001 C CNN "Source"
-F 10 "Y" H 1050 6600 60  0001 C CNN "Critical"
-F 11 "X" H 1050 6600 60  0001 C CNN "Notes"
-	1    1050 6600
+P 1600 8500
+F 0 "ACC101" H 1610 8640 60  0000 C CNN
+F 1 "ARDUINO_MEGA_OUTLINE" H 1600 8360 60  0000 C CNN
+F 2 "3ML_Footprint_Library:Arduino_Mega_2560__UPSIDE_DOWN_Footprint" H 1600 8500 60  0001 C CNN
+F 3 "" H 1600 8500 60  0001 C CNN
+F 4 "Value" H 1600 8500 60  0001 C CNN "MPN"
+F 5 "Value" H 1600 8500 60  0001 C CNN "MFN"
+F 6 "Value" H 1600 8500 60  0001 C CNN "Characteristics"
+F 7 "Value" H 1600 8500 60  0001 C CNN "Description"
+F 8 "Value" H 1600 8500 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 1600 8500 60  0001 C CNN "Source"
+F 10 "Y" H 1600 8500 60  0001 C CNN "Critical"
+F 11 "X" H 1600 8500 60  0001 C CNN "Notes"
+	1    1600 8500
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X10 J109
 U 1 1 58FDB725
-P 9850 2250
-F 0 "J109" H 9850 2800 50  0000 C CNN
-F 1 "CONN_01X10" V 9950 2250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 9850 2250 50  0001 C CNN
-F 3 "X" H 9850 2250 50  0001 C CNN
-F 4 "X" H 9850 2250 60  0001 C CNN "Characteristics"
-F 5 "X" H 9850 2250 60  0001 C CNN "Description"
-F 6 "X" H 9850 2250 60  0001 C CNN "MFN"
-F 7 "X" H 9850 2250 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 9850 2250 60  0001 C CNN "Source"
-F 9 "Y" H 9850 2250 60  0001 C CNN "Critical"
-F 10 "X" H 9850 2250 60  0001 C CNN "Notes"
-F 11 "1" H 9850 2250 60  0001 C CNN "Populate"
-F 12 "X" H 9850 2250 60  0001 C CNN "MPN"
-	1    9850 2250
+P 12450 4200
+F 0 "J109" H 12450 4750 50  0000 C CNN
+F 1 "CONN_01X10" V 12550 4200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 12450 4200 50  0001 C CNN
+F 3 "X" H 12450 4200 50  0001 C CNN
+F 4 "X" H 12450 4200 60  0001 C CNN "Characteristics"
+F 5 "X" H 12450 4200 60  0001 C CNN "Description"
+F 6 "X" H 12450 4200 60  0001 C CNN "MFN"
+F 7 "X" H 12450 4200 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 12450 4200 60  0001 C CNN "Source"
+F 9 "Y" H 12450 4200 60  0001 C CNN "Critical"
+F 10 "X" H 12450 4200 60  0001 C CNN "Notes"
+F 11 "1" H 12450 4200 60  0001 C CNN "Populate"
+F 12 "X" H 12450 4200 60  0001 C CNN "MPN"
+	1    12450 4200
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9650 1800
-NoConn ~ 9650 1900
-NoConn ~ 9650 2000
-Wire Wire Line
-	9000 2100 9000 2200
+NoConn ~ 12250 3750
+NoConn ~ 12250 3850
+NoConn ~ 12250 3950
 $Comp
 L CONN_01X08 J112
 U 1 1 58FDD5B0
-P 9850 3250
-F 0 "J112" H 9850 3700 50  0000 C CNN
-F 1 "CONN_01X08" V 9950 3250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 9850 3250 50  0001 C CNN
-F 3 "X" H 9850 3250 50  0001 C CNN
-F 4 "X" H 9850 3250 60  0001 C CNN "Characteristics"
-F 5 "X" H 9850 3250 60  0001 C CNN "Description"
-F 6 "X" H 9850 3250 60  0001 C CNN "MFN"
-F 7 "X" H 9850 3250 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 9850 3250 60  0001 C CNN "Source"
-F 9 "Y" H 9850 3250 60  0001 C CNN "Critical"
-F 10 "X" H 9850 3250 60  0001 C CNN "Notes"
-F 11 "1" H 9850 3250 60  0001 C CNN "Populate"
-F 12 "X" H 9850 3250 60  0001 C CNN "MPN"
-	1    9850 3250
+P 12450 5200
+F 0 "J112" H 12450 5650 50  0000 C CNN
+F 1 "CONN_01X08" V 12550 5200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 12450 5200 50  0001 C CNN
+F 3 "X" H 12450 5200 50  0001 C CNN
+F 4 "X" H 12450 5200 60  0001 C CNN "Characteristics"
+F 5 "X" H 12450 5200 60  0001 C CNN "Description"
+F 6 "X" H 12450 5200 60  0001 C CNN "MFN"
+F 7 "X" H 12450 5200 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 12450 5200 60  0001 C CNN "Source"
+F 9 "Y" H 12450 5200 60  0001 C CNN "Critical"
+F 10 "X" H 12450 5200 60  0001 C CNN "Notes"
+F 11 "1" H 12450 5200 60  0001 C CNN "Populate"
+F 12 "X" H 12450 5200 60  0001 C CNN "MPN"
+	1    12450 5200
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9650 3500
-NoConn ~ 9650 3600
+NoConn ~ 12250 5450
+NoConn ~ 12250 5550
 $Comp
 L CONN_01X08 J113
 U 1 1 58FDDEFD
-P 9850 4150
-F 0 "J113" H 9850 4600 50  0000 C CNN
-F 1 "CONN_01X08" V 9950 4150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 9850 4150 50  0001 C CNN
-F 3 "X" H 9850 4150 50  0001 C CNN
-F 4 "X" H 9850 4150 60  0001 C CNN "Characteristics"
-F 5 "X" H 9850 4150 60  0001 C CNN "Description"
-F 6 "X" H 9850 4150 60  0001 C CNN "MFN"
-F 7 "X" H 9850 4150 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 9850 4150 60  0001 C CNN "Source"
-F 9 "Y" H 9850 4150 60  0001 C CNN "Critical"
-F 10 "X" H 9850 4150 60  0001 C CNN "Notes"
-F 11 "1" H 9850 4150 60  0001 C CNN "Populate"
-F 12 "X" H 9850 4150 60  0001 C CNN "MPN"
-	1    9850 4150
+P 12450 6100
+F 0 "J113" H 12450 6550 50  0000 C CNN
+F 1 "CONN_01X08" V 12550 6100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 12450 6100 50  0001 C CNN
+F 3 "X" H 12450 6100 50  0001 C CNN
+F 4 "X" H 12450 6100 60  0001 C CNN "Characteristics"
+F 5 "X" H 12450 6100 60  0001 C CNN "Description"
+F 6 "X" H 12450 6100 60  0001 C CNN "MFN"
+F 7 "X" H 12450 6100 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 12450 6100 60  0001 C CNN "Source"
+F 9 "Y" H 12450 6100 60  0001 C CNN "Critical"
+F 10 "X" H 12450 6100 60  0001 C CNN "Notes"
+F 11 "1" H 12450 6100 60  0001 C CNN "Populate"
+F 12 "X" H 12450 6100 60  0001 C CNN "MPN"
+	1    12450 6100
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9650 4400
-NoConn ~ 9650 4500
+NoConn ~ 12250 6350
+NoConn ~ 12250 6450
 $Comp
 L CONN_01X08 J111
 U 1 1 58FE7273
-P 12050 2150
-F 0 "J111" H 12050 2600 50  0000 C CNN
-F 1 "CONN_01X08" V 12150 2150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 12050 2150 50  0001 C CNN
-F 3 "X" H 12050 2150 50  0001 C CNN
-F 4 "X" H 12050 2150 60  0001 C CNN "Characteristics"
-F 5 "X" H 12050 2150 60  0001 C CNN "Description"
-F 6 "X" H 12050 2150 60  0001 C CNN "MFN"
-F 7 "X" H 12050 2150 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 12050 2150 60  0001 C CNN "Source"
-F 9 "Y" H 12050 2150 60  0001 C CNN "Critical"
-F 10 "X" H 12050 2150 60  0001 C CNN "Notes"
-F 11 "1" H 12050 2150 60  0001 C CNN "Populate"
-F 12 "X" H 12050 2150 60  0001 C CNN "MPN"
-	1    12050 2150
+P 14650 4100
+F 0 "J111" H 14650 4550 50  0000 C CNN
+F 1 "CONN_01X08" V 14750 4100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 14650 4100 50  0001 C CNN
+F 3 "X" H 14650 4100 50  0001 C CNN
+F 4 "X" H 14650 4100 60  0001 C CNN "Characteristics"
+F 5 "X" H 14650 4100 60  0001 C CNN "Description"
+F 6 "X" H 14650 4100 60  0001 C CNN "MFN"
+F 7 "X" H 14650 4100 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 14650 4100 60  0001 C CNN "Source"
+F 9 "Y" H 14650 4100 60  0001 C CNN "Critical"
+F 10 "X" H 14650 4100 60  0001 C CNN "Notes"
+F 11 "1" H 14650 4100 60  0001 C CNN "Populate"
+F 12 "X" H 14650 4100 60  0001 C CNN "MPN"
+	1    14650 4100
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 12250 1800
-NoConn ~ 12250 1900
-NoConn ~ 12250 2000
-NoConn ~ 12250 2500
+NoConn ~ 14850 3750
+NoConn ~ 14850 3850
+NoConn ~ 14850 3950
+NoConn ~ 14850 4450
 $Comp
 L CONN_01X08 J114
 U 1 1 58FE90D5
-P 12050 3050
-F 0 "J114" H 12050 3500 50  0000 C CNN
-F 1 "CONN_01X08" V 12150 3050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 12050 3050 50  0001 C CNN
-F 3 "X" H 12050 3050 50  0001 C CNN
-F 4 "X" H 12050 3050 60  0001 C CNN "Characteristics"
-F 5 "X" H 12050 3050 60  0001 C CNN "Description"
-F 6 "X" H 12050 3050 60  0001 C CNN "MFN"
-F 7 "X" H 12050 3050 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 12050 3050 60  0001 C CNN "Source"
-F 9 "Y" H 12050 3050 60  0001 C CNN "Critical"
-F 10 "X" H 12050 3050 60  0001 C CNN "Notes"
-F 11 "1" H 12050 3050 60  0001 C CNN "Populate"
-F 12 "X" H 12050 3050 60  0001 C CNN "MPN"
-	1    12050 3050
+P 14650 5000
+F 0 "J114" H 14650 5450 50  0000 C CNN
+F 1 "CONN_01X08" V 14750 5000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 14650 5000 50  0001 C CNN
+F 3 "X" H 14650 5000 50  0001 C CNN
+F 4 "X" H 14650 5000 60  0001 C CNN "Characteristics"
+F 5 "X" H 14650 5000 60  0001 C CNN "Description"
+F 6 "X" H 14650 5000 60  0001 C CNN "MFN"
+F 7 "X" H 14650 5000 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 14650 5000 60  0001 C CNN "Source"
+F 9 "Y" H 14650 5000 60  0001 C CNN "Critical"
+F 10 "X" H 14650 5000 60  0001 C CNN "Notes"
+F 11 "1" H 14650 5000 60  0001 C CNN "Populate"
+F 12 "X" H 14650 5000 60  0001 C CNN "MPN"
+	1    14650 5000
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 12250 2700
-NoConn ~ 12250 2800
-NoConn ~ 12250 2900
-NoConn ~ 12250 3000
-NoConn ~ 12250 3100
-NoConn ~ 12250 3200
-NoConn ~ 12250 3300
-NoConn ~ 12250 3400
+NoConn ~ 14850 4650
+NoConn ~ 14850 4750
+NoConn ~ 14850 4850
+NoConn ~ 14850 4950
+NoConn ~ 14850 5050
+NoConn ~ 14850 5150
+NoConn ~ 14850 5250
+NoConn ~ 14850 5350
 $Comp
 L CONN_01X08 J115
 U 1 1 58FEC037
-P 12050 3950
-F 0 "J115" H 12050 4400 50  0000 C CNN
-F 1 "CONN_01X08" V 12150 3950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 12050 3950 50  0001 C CNN
-F 3 "X" H 12050 3950 50  0001 C CNN
-F 4 "X" H 12050 3950 60  0001 C CNN "Characteristics"
-F 5 "X" H 12050 3950 60  0001 C CNN "Description"
-F 6 "X" H 12050 3950 60  0001 C CNN "MFN"
-F 7 "X" H 12050 3950 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 12050 3950 60  0001 C CNN "Source"
-F 9 "Y" H 12050 3950 60  0001 C CNN "Critical"
-F 10 "X" H 12050 3950 60  0001 C CNN "Notes"
-F 11 "1" H 12050 3950 60  0001 C CNN "Populate"
-F 12 "X" H 12050 3950 60  0001 C CNN "MPN"
-	1    12050 3950
+P 14650 5900
+F 0 "J115" H 14650 6350 50  0000 C CNN
+F 1 "CONN_01X08" V 14750 5900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 14650 5900 50  0001 C CNN
+F 3 "X" H 14650 5900 50  0001 C CNN
+F 4 "X" H 14650 5900 60  0001 C CNN "Characteristics"
+F 5 "X" H 14650 5900 60  0001 C CNN "Description"
+F 6 "X" H 14650 5900 60  0001 C CNN "MFN"
+F 7 "X" H 14650 5900 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 14650 5900 60  0001 C CNN "Source"
+F 9 "Y" H 14650 5900 60  0001 C CNN "Critical"
+F 10 "X" H 14650 5900 60  0001 C CNN "Notes"
+F 11 "1" H 14650 5900 60  0001 C CNN "Populate"
+F 12 "X" H 14650 5900 60  0001 C CNN "MPN"
+	1    14650 5900
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 12250 3600
-NoConn ~ 12250 3700
-NoConn ~ 12250 3800
-NoConn ~ 12250 3900
-NoConn ~ 12250 4000
-NoConn ~ 12250 4100
-NoConn ~ 12250 4200
-NoConn ~ 12250 4300
+NoConn ~ 14850 5550
+NoConn ~ 14850 5650
+NoConn ~ 14850 5750
+NoConn ~ 14850 5850
+NoConn ~ 14850 5950
+NoConn ~ 14850 6050
+NoConn ~ 14850 6150
+NoConn ~ 14850 6250
 $Comp
 L ACC_? ACC102
 U 1 1 58FF0CFD
-P 2250 6200
-F 0 "ACC102" H 2260 6340 60  0000 C CNN
-F 1 "BOARD_MOUNTING_HOLE" H 2250 6060 60  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 2250 6200 60  0001 C CNN
-F 3 "" H 2250 6200 60  0001 C CNN
-F 4 "Value" H 2250 6200 60  0001 C CNN "MPN"
-F 5 "Value" H 2250 6200 60  0001 C CNN "MFN"
-F 6 "Value" H 2250 6200 60  0001 C CNN "Characteristics"
-F 7 "Value" H 2250 6200 60  0001 C CNN "Description"
-F 8 "Value" H 2250 6200 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 2250 6200 60  0001 C CNN "Source"
-F 10 "Y" H 2250 6200 60  0001 C CNN "Critical"
-F 11 "X" H 2250 6200 60  0001 C CNN "Notes"
-	1    2250 6200
+P 2800 8100
+F 0 "ACC102" H 2810 8240 60  0000 C CNN
+F 1 "BOARD_MOUNTING_HOLE" H 2800 7960 60  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 2800 8100 60  0001 C CNN
+F 3 "" H 2800 8100 60  0001 C CNN
+F 4 "Value" H 2800 8100 60  0001 C CNN "MPN"
+F 5 "Value" H 2800 8100 60  0001 C CNN "MFN"
+F 6 "Value" H 2800 8100 60  0001 C CNN "Characteristics"
+F 7 "Value" H 2800 8100 60  0001 C CNN "Description"
+F 8 "Value" H 2800 8100 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 2800 8100 60  0001 C CNN "Source"
+F 10 "Y" H 2800 8100 60  0001 C CNN "Critical"
+F 11 "X" H 2800 8100 60  0001 C CNN "Notes"
+	1    2800 8100
 	1    0    0    -1  
 $EndComp
 $Comp
 L ACC_? ACC103
 U 1 1 58FF2BEC
-P 2250 6600
-F 0 "ACC103" H 2260 6740 60  0000 C CNN
-F 1 "BOARD_MOUNTING_HOLE" H 2250 6460 60  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 2250 6600 60  0001 C CNN
-F 3 "" H 2250 6600 60  0001 C CNN
-F 4 "Value" H 2250 6600 60  0001 C CNN "MPN"
-F 5 "Value" H 2250 6600 60  0001 C CNN "MFN"
-F 6 "Value" H 2250 6600 60  0001 C CNN "Characteristics"
-F 7 "Value" H 2250 6600 60  0001 C CNN "Description"
-F 8 "Value" H 2250 6600 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 2250 6600 60  0001 C CNN "Source"
-F 10 "Y" H 2250 6600 60  0001 C CNN "Critical"
-F 11 "X" H 2250 6600 60  0001 C CNN "Notes"
-	1    2250 6600
+P 2800 8500
+F 0 "ACC103" H 2810 8640 60  0000 C CNN
+F 1 "BOARD_MOUNTING_HOLE" H 2800 8360 60  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 2800 8500 60  0001 C CNN
+F 3 "" H 2800 8500 60  0001 C CNN
+F 4 "Value" H 2800 8500 60  0001 C CNN "MPN"
+F 5 "Value" H 2800 8500 60  0001 C CNN "MFN"
+F 6 "Value" H 2800 8500 60  0001 C CNN "Characteristics"
+F 7 "Value" H 2800 8500 60  0001 C CNN "Description"
+F 8 "Value" H 2800 8500 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 2800 8500 60  0001 C CNN "Source"
+F 10 "Y" H 2800 8500 60  0001 C CNN "Critical"
+F 11 "X" H 2800 8500 60  0001 C CNN "Notes"
+	1    2800 8500
 	1    0    0    -1  
 $EndComp
 $Comp
 L ACC_? ACC105
 U 1 1 58FF2E6E
-P 3450 6600
-F 0 "ACC105" H 3460 6740 60  0000 C CNN
-F 1 "BOARD_MOUNTING_HOLE" H 3450 6460 60  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 3450 6600 60  0001 C CNN
-F 3 "" H 3450 6600 60  0001 C CNN
-F 4 "Value" H 3450 6600 60  0001 C CNN "MPN"
-F 5 "Value" H 3450 6600 60  0001 C CNN "MFN"
-F 6 "Value" H 3450 6600 60  0001 C CNN "Characteristics"
-F 7 "Value" H 3450 6600 60  0001 C CNN "Description"
-F 8 "Value" H 3450 6600 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 3450 6600 60  0001 C CNN "Source"
-F 10 "Y" H 3450 6600 60  0001 C CNN "Critical"
-F 11 "X" H 3450 6600 60  0001 C CNN "Notes"
-	1    3450 6600
+P 4000 8500
+F 0 "ACC105" H 4010 8640 60  0000 C CNN
+F 1 "BOARD_MOUNTING_HOLE" H 4000 8360 60  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 4000 8500 60  0001 C CNN
+F 3 "" H 4000 8500 60  0001 C CNN
+F 4 "Value" H 4000 8500 60  0001 C CNN "MPN"
+F 5 "Value" H 4000 8500 60  0001 C CNN "MFN"
+F 6 "Value" H 4000 8500 60  0001 C CNN "Characteristics"
+F 7 "Value" H 4000 8500 60  0001 C CNN "Description"
+F 8 "Value" H 4000 8500 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 4000 8500 60  0001 C CNN "Source"
+F 10 "Y" H 4000 8500 60  0001 C CNN "Critical"
+F 11 "X" H 4000 8500 60  0001 C CNN "Notes"
+	1    4000 8500
 	1    0    0    -1  
 $EndComp
 $Comp
 L ACC_? ACC104
 U 1 1 58FF30FF
-P 3450 6200
-F 0 "ACC104" H 3460 6340 60  0000 C CNN
-F 1 "BOARD_MOUNTING_HOLE" H 3450 6060 60  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 3450 6200 60  0001 C CNN
-F 3 "" H 3450 6200 60  0001 C CNN
-F 4 "Value" H 3450 6200 60  0001 C CNN "MPN"
-F 5 "Value" H 3450 6200 60  0001 C CNN "MFN"
-F 6 "Value" H 3450 6200 60  0001 C CNN "Characteristics"
-F 7 "Value" H 3450 6200 60  0001 C CNN "Description"
-F 8 "Value" H 3450 6200 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 3450 6200 60  0001 C CNN "Source"
-F 10 "Y" H 3450 6200 60  0001 C CNN "Critical"
-F 11 "X" H 3450 6200 60  0001 C CNN "Notes"
-	1    3450 6200
+P 4000 8100
+F 0 "ACC104" H 4010 8240 60  0000 C CNN
+F 1 "BOARD_MOUNTING_HOLE" H 4000 7960 60  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 4000 8100 60  0001 C CNN
+F 3 "" H 4000 8100 60  0001 C CNN
+F 4 "Value" H 4000 8100 60  0001 C CNN "MPN"
+F 5 "Value" H 4000 8100 60  0001 C CNN "MFN"
+F 6 "Value" H 4000 8100 60  0001 C CNN "Characteristics"
+F 7 "Value" H 4000 8100 60  0001 C CNN "Description"
+F 8 "Value" H 4000 8100 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 4000 8100 60  0001 C CNN "Source"
+F 10 "Y" H 4000 8100 60  0001 C CNN "Critical"
+F 11 "X" H 4000 8100 60  0001 C CNN "Notes"
+	1    4000 8100
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR08
 U 1 1 59009141
-P 1900 1600
-F 0 "#PWR08" H 1900 1350 50  0001 C CNN
-F 1 "GND" H 1900 1450 50  0000 C CNN
-F 2 "" H 1900 1600 50  0001 C CNN
-F 3 "" H 1900 1600 50  0001 C CNN
-	1    1900 1600
+P 2550 3600
+F 0 "#PWR08" H 2550 3350 50  0001 C CNN
+F 1 "GND" H 2550 3450 50  0000 C CNN
+F 2 "" H 2550 3600 50  0001 C CNN
+F 3 "" H 2550 3600 50  0001 C CNN
+	1    2550 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L ACC_? ACC106
 U 1 1 5901782F
-P 1050 7050
-F 0 "ACC106" H 1060 7190 60  0000 C CNN
-F 1 "3ML Logo" H 1050 6910 60  0000 C CNN
-F 2 "3ML_Footprint_Library:3ML_LOGO" H 1050 7050 60  0001 C CNN
-F 3 "" H 1050 7050 60  0001 C CNN
-F 4 "X" H 1050 7050 60  0001 C CNN "MPN"
-F 5 "X" H 1050 7050 60  0001 C CNN "MFN"
-F 6 "X" H 1050 7050 60  0001 C CNN "Characteristics"
-F 7 "X" H 1050 7050 60  0001 C CNN "Description"
-F 8 "X" H 1050 7050 60  0001 C CNN "Package ID"
-F 9 "X" H 1050 7050 60  0001 C CNN "Source"
-F 10 "X" H 1050 7050 60  0001 C CNN "Critical"
-F 11 "X" H 1050 7050 60  0001 C CNN "Notes"
-	1    1050 7050
+P 1600 8950
+F 0 "ACC106" H 1610 9090 60  0000 C CNN
+F 1 "3ML Logo" H 1600 8810 60  0000 C CNN
+F 2 "3ML_Footprint_Library:3ML_LOGO" H 1600 8950 60  0001 C CNN
+F 3 "" H 1600 8950 60  0001 C CNN
+F 4 "X" H 1600 8950 60  0001 C CNN "MPN"
+F 5 "X" H 1600 8950 60  0001 C CNN "MFN"
+F 6 "X" H 1600 8950 60  0001 C CNN "Characteristics"
+F 7 "X" H 1600 8950 60  0001 C CNN "Description"
+F 8 "X" H 1600 8950 60  0001 C CNN "Package ID"
+F 9 "X" H 1600 8950 60  0001 C CNN "Source"
+F 10 "X" H 1600 8950 60  0001 C CNN "Critical"
+F 11 "X" H 1600 8950 60  0001 C CNN "Notes"
+	1    1600 8950
 	1    0    0    -1  
 $EndComp
 $Comp
 L ACC_? ACC107
 U 1 1 590193F4
-P 2250 7000
-F 0 "ACC107" H 2260 7140 60  0000 C CNN
-F 1 "ARDUINO_MOUNTING_HOLE" H 2250 6860 60  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 2250 7000 60  0001 C CNN
-F 3 "" H 2250 7000 60  0001 C CNN
-F 4 "Value" H 2250 7000 60  0001 C CNN "MPN"
-F 5 "Value" H 2250 7000 60  0001 C CNN "MFN"
-F 6 "Value" H 2250 7000 60  0001 C CNN "Characteristics"
-F 7 "Value" H 2250 7000 60  0001 C CNN "Description"
-F 8 "Value" H 2250 7000 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 2250 7000 60  0001 C CNN "Source"
-F 10 "Y" H 2250 7000 60  0001 C CNN "Critical"
-F 11 "X" H 2250 7000 60  0001 C CNN "Notes"
-	1    2250 7000
+P 2800 8900
+F 0 "ACC107" H 2810 9040 60  0000 C CNN
+F 1 "ARDUINO_MOUNTING_HOLE" H 2800 8760 60  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 2800 8900 60  0001 C CNN
+F 3 "" H 2800 8900 60  0001 C CNN
+F 4 "Value" H 2800 8900 60  0001 C CNN "MPN"
+F 5 "Value" H 2800 8900 60  0001 C CNN "MFN"
+F 6 "Value" H 2800 8900 60  0001 C CNN "Characteristics"
+F 7 "Value" H 2800 8900 60  0001 C CNN "Description"
+F 8 "Value" H 2800 8900 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 2800 8900 60  0001 C CNN "Source"
+F 10 "Y" H 2800 8900 60  0001 C CNN "Critical"
+F 11 "X" H 2800 8900 60  0001 C CNN "Notes"
+	1    2800 8900
 	1    0    0    -1  
 $EndComp
 $Comp
 L ACC_? ACC110
 U 1 1 590197F2
-P 3450 7000
-F 0 "ACC110" H 3460 7140 60  0000 C CNN
-F 1 "ARDUINO_MOUNTING_HOLE" H 3450 6860 60  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 3450 7000 60  0001 C CNN
-F 3 "" H 3450 7000 60  0001 C CNN
-F 4 "Value" H 3450 7000 60  0001 C CNN "MPN"
-F 5 "Value" H 3450 7000 60  0001 C CNN "MFN"
-F 6 "Value" H 3450 7000 60  0001 C CNN "Characteristics"
-F 7 "Value" H 3450 7000 60  0001 C CNN "Description"
-F 8 "Value" H 3450 7000 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 3450 7000 60  0001 C CNN "Source"
-F 10 "Y" H 3450 7000 60  0001 C CNN "Critical"
-F 11 "X" H 3450 7000 60  0001 C CNN "Notes"
-	1    3450 7000
+P 4000 8900
+F 0 "ACC110" H 4010 9040 60  0000 C CNN
+F 1 "ARDUINO_MOUNTING_HOLE" H 4000 8760 60  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 4000 8900 60  0001 C CNN
+F 3 "" H 4000 8900 60  0001 C CNN
+F 4 "Value" H 4000 8900 60  0001 C CNN "MPN"
+F 5 "Value" H 4000 8900 60  0001 C CNN "MFN"
+F 6 "Value" H 4000 8900 60  0001 C CNN "Characteristics"
+F 7 "Value" H 4000 8900 60  0001 C CNN "Description"
+F 8 "Value" H 4000 8900 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 4000 8900 60  0001 C CNN "Source"
+F 10 "Y" H 4000 8900 60  0001 C CNN "Critical"
+F 11 "X" H 4000 8900 60  0001 C CNN "Notes"
+	1    4000 8900
 	1    0    0    -1  
 $EndComp
 $Comp
 L ACC_? ACC108
 U 1 1 5901A653
-P 2250 7400
-F 0 "ACC108" H 2260 7540 60  0000 C CNN
-F 1 "ARDUINO_MOUNTING_HOLE" H 2250 7260 60  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 2250 7400 60  0001 C CNN
-F 3 "" H 2250 7400 60  0001 C CNN
-F 4 "Value" H 2250 7400 60  0001 C CNN "MPN"
-F 5 "Value" H 2250 7400 60  0001 C CNN "MFN"
-F 6 "Value" H 2250 7400 60  0001 C CNN "Characteristics"
-F 7 "Value" H 2250 7400 60  0001 C CNN "Description"
-F 8 "Value" H 2250 7400 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 2250 7400 60  0001 C CNN "Source"
-F 10 "Y" H 2250 7400 60  0001 C CNN "Critical"
-F 11 "X" H 2250 7400 60  0001 C CNN "Notes"
-	1    2250 7400
+P 2800 9300
+F 0 "ACC108" H 2810 9440 60  0000 C CNN
+F 1 "ARDUINO_MOUNTING_HOLE" H 2800 9160 60  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 2800 9300 60  0001 C CNN
+F 3 "" H 2800 9300 60  0001 C CNN
+F 4 "Value" H 2800 9300 60  0001 C CNN "MPN"
+F 5 "Value" H 2800 9300 60  0001 C CNN "MFN"
+F 6 "Value" H 2800 9300 60  0001 C CNN "Characteristics"
+F 7 "Value" H 2800 9300 60  0001 C CNN "Description"
+F 8 "Value" H 2800 9300 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 2800 9300 60  0001 C CNN "Source"
+F 10 "Y" H 2800 9300 60  0001 C CNN "Critical"
+F 11 "X" H 2800 9300 60  0001 C CNN "Notes"
+	1    2800 9300
 	1    0    0    -1  
 $EndComp
 $Comp
 L ACC_? ACC111
 U 1 1 5901A661
-P 3450 7400
-F 0 "ACC111" H 3460 7540 60  0000 C CNN
-F 1 "ARDUINO_MOUNTING_HOLE" H 3450 7260 60  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 3450 7400 60  0001 C CNN
-F 3 "" H 3450 7400 60  0001 C CNN
-F 4 "Value" H 3450 7400 60  0001 C CNN "MPN"
-F 5 "Value" H 3450 7400 60  0001 C CNN "MFN"
-F 6 "Value" H 3450 7400 60  0001 C CNN "Characteristics"
-F 7 "Value" H 3450 7400 60  0001 C CNN "Description"
-F 8 "Value" H 3450 7400 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 3450 7400 60  0001 C CNN "Source"
-F 10 "Y" H 3450 7400 60  0001 C CNN "Critical"
-F 11 "X" H 3450 7400 60  0001 C CNN "Notes"
-	1    3450 7400
+P 4000 9300
+F 0 "ACC111" H 4010 9440 60  0000 C CNN
+F 1 "ARDUINO_MOUNTING_HOLE" H 4000 9160 60  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 4000 9300 60  0001 C CNN
+F 3 "" H 4000 9300 60  0001 C CNN
+F 4 "Value" H 4000 9300 60  0001 C CNN "MPN"
+F 5 "Value" H 4000 9300 60  0001 C CNN "MFN"
+F 6 "Value" H 4000 9300 60  0001 C CNN "Characteristics"
+F 7 "Value" H 4000 9300 60  0001 C CNN "Description"
+F 8 "Value" H 4000 9300 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 4000 9300 60  0001 C CNN "Source"
+F 10 "Y" H 4000 9300 60  0001 C CNN "Critical"
+F 11 "X" H 4000 9300 60  0001 C CNN "Notes"
+	1    4000 9300
 	1    0    0    -1  
 $EndComp
 $Comp
 L ACC_? ACC109
 U 1 1 5901A8EF
-P 2250 7800
-F 0 "ACC109" H 2260 7940 60  0000 C CNN
-F 1 "ARDUINO_MOUNTING_HOLE" H 2250 7660 60  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 2250 7800 60  0001 C CNN
-F 3 "" H 2250 7800 60  0001 C CNN
-F 4 "Value" H 2250 7800 60  0001 C CNN "MPN"
-F 5 "Value" H 2250 7800 60  0001 C CNN "MFN"
-F 6 "Value" H 2250 7800 60  0001 C CNN "Characteristics"
-F 7 "Value" H 2250 7800 60  0001 C CNN "Description"
-F 8 "Value" H 2250 7800 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 2250 7800 60  0001 C CNN "Source"
-F 10 "Y" H 2250 7800 60  0001 C CNN "Critical"
-F 11 "X" H 2250 7800 60  0001 C CNN "Notes"
-	1    2250 7800
+P 2800 9700
+F 0 "ACC109" H 2810 9840 60  0000 C CNN
+F 1 "ARDUINO_MOUNTING_HOLE" H 2800 9560 60  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 2800 9700 60  0001 C CNN
+F 3 "" H 2800 9700 60  0001 C CNN
+F 4 "Value" H 2800 9700 60  0001 C CNN "MPN"
+F 5 "Value" H 2800 9700 60  0001 C CNN "MFN"
+F 6 "Value" H 2800 9700 60  0001 C CNN "Characteristics"
+F 7 "Value" H 2800 9700 60  0001 C CNN "Description"
+F 8 "Value" H 2800 9700 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 2800 9700 60  0001 C CNN "Source"
+F 10 "Y" H 2800 9700 60  0001 C CNN "Critical"
+F 11 "X" H 2800 9700 60  0001 C CNN "Notes"
+	1    2800 9700
 	1    0    0    -1  
 $EndComp
 $Comp
 L ACC_? ACC112
 U 1 1 5901A8FD
-P 3450 7800
-F 0 "ACC112" H 3460 7940 60  0000 C CNN
-F 1 "ARDUINO_MOUNTING_HOLE" H 3450 7660 60  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 3450 7800 60  0001 C CNN
-F 3 "" H 3450 7800 60  0001 C CNN
-F 4 "Value" H 3450 7800 60  0001 C CNN "MPN"
-F 5 "Value" H 3450 7800 60  0001 C CNN "MFN"
-F 6 "Value" H 3450 7800 60  0001 C CNN "Characteristics"
-F 7 "Value" H 3450 7800 60  0001 C CNN "Description"
-F 8 "Value" H 3450 7800 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 3450 7800 60  0001 C CNN "Source"
-F 10 "Y" H 3450 7800 60  0001 C CNN "Critical"
-F 11 "X" H 3450 7800 60  0001 C CNN "Notes"
-	1    3450 7800
+P 4000 9700
+F 0 "ACC112" H 4010 9840 60  0000 C CNN
+F 1 "ARDUINO_MOUNTING_HOLE" H 4000 9560 60  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 4000 9700 60  0001 C CNN
+F 3 "" H 4000 9700 60  0001 C CNN
+F 4 "Value" H 4000 9700 60  0001 C CNN "MPN"
+F 5 "Value" H 4000 9700 60  0001 C CNN "MFN"
+F 6 "Value" H 4000 9700 60  0001 C CNN "Characteristics"
+F 7 "Value" H 4000 9700 60  0001 C CNN "Description"
+F 8 "Value" H 4000 9700 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 4000 9700 60  0001 C CNN "Source"
+F 10 "Y" H 4000 9700 60  0001 C CNN "Critical"
+F 11 "X" H 4000 9700 60  0001 C CNN "Notes"
+	1    4000 9700
 	1    0    0    -1  
 $EndComp
-Text Label 9250 3800 0    60   ~ 0
+Text Label 11850 5750 0    60   ~ 0
 DIN14
-Wire Wire Line
-	9650 3800 9250 3800
-Text Label 9250 3900 0    60   ~ 0
+Text Label 11850 5850 0    60   ~ 0
 DIN15
-Wire Wire Line
-	9650 3900 9250 3900
-Text Label 9250 4000 0    60   ~ 0
+Text Label 11850 5950 0    60   ~ 0
 DIN16
-Wire Wire Line
-	9650 4000 9250 4000
-Text Label 9250 4100 0    60   ~ 0
+Text Label 11850 6050 0    60   ~ 0
 DIN17
-Wire Wire Line
-	9650 4100 9250 4100
-Text Label 9250 4200 0    60   ~ 0
+Text Label 11850 6150 0    60   ~ 0
 DIN18
-Wire Wire Line
-	9650 4200 9250 4200
-Text Label 9250 4300 0    60   ~ 0
+Text Label 11850 6250 0    60   ~ 0
 DIN19
-Wire Wire Line
-	9650 4300 9250 4300
-Wire Wire Line
-	1100 2800 1700 2800
-Wire Wire Line
-	1100 2700 1700 2700
-Text Label 1700 2700 2    60   ~ 0
+Text Label 1950 4050 2    60   ~ 0
 F_DIN14
-Text Label 1700 2800 2    60   ~ 0
+Text Label 1950 4150 2    60   ~ 0
 F_DIN15
-$Comp
-L CONN_01X02 J118
-U 1 1 59359E86
-P 900 2750
-F 0 "J118" H 900 2900 50  0000 C CNN
-F 1 "CONN_01X02" V 1000 2750 50  0000 C CNN
-F 2 "3ML_Footprint_Library:Wurth_691103010002" H 900 2750 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/download/STEP-691103110002-rev1.stp" H 900 2750 50  0001 C CNN
-F 4 "691103110002" H 900 2750 60  0001 C CNN "MPN"
-F 5 "Wurth Electronics Inc" H 900 2750 60  0001 C CNN "MFN"
-F 6 "X" H 900 2750 60  0001 C CNN "Characteristics"
-F 7 "TERM BLOCK 2POS HORIZ 3.5MM T/H" H 900 2750 60  0001 C CNN "Description"
-F 8 "Through Hole" H 900 2750 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 900 2750 60  0001 C CNN "Source"
-F 10 "Y" H 900 2750 60  0001 C CNN "Critical"
-F 11 "X" H 900 2750 60  0001 C CNN "Notes"
-	1    900  2750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1100 2300 1700 2300
-Wire Wire Line
-	1100 2200 1700 2200
-Text Label 1700 2200 2    60   ~ 0
+Text Label 1950 3850 2    60   ~ 0
 F_DIN16
-Text Label 1700 2300 2    60   ~ 0
+Text Label 1950 3950 2    60   ~ 0
 F_DIN17
-$Comp
-L CONN_01X02 J117
-U 1 1 5935A109
-P 900 2250
-F 0 "J117" H 900 2400 50  0000 C CNN
-F 1 "CONN_01X02" V 1000 2250 50  0000 C CNN
-F 2 "3ML_Footprint_Library:Wurth_691103010002" H 900 2250 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/download/STEP-691103110002-rev1.stp" H 900 2250 50  0001 C CNN
-F 4 "691103110002" H 900 2250 60  0001 C CNN "MPN"
-F 5 "Wurth Electronics Inc" H 900 2250 60  0001 C CNN "MFN"
-F 6 "X" H 900 2250 60  0001 C CNN "Characteristics"
-F 7 "TERM BLOCK 2POS HORIZ 3.5MM T/H" H 900 2250 60  0001 C CNN "Description"
-F 8 "Through Hole" H 900 2250 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 900 2250 60  0001 C CNN "Source"
-F 10 "Y" H 900 2250 60  0001 C CNN "Critical"
-F 11 "X" H 900 2250 60  0001 C CNN "Notes"
-	1    900  2250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1100 1800 1700 1800
-Wire Wire Line
-	1100 1700 1700 1700
-Text Label 1700 1700 2    60   ~ 0
+Text Label 1950 3650 2    60   ~ 0
 F_DIN18
-Text Label 1700 1800 2    60   ~ 0
+Text Label 1950 3750 2    60   ~ 0
 F_DIN19
-$Comp
-L CONN_01X02 J116
-U 1 1 5935C074
-P 900 1750
-F 0 "J116" H 900 1900 50  0000 C CNN
-F 1 "CONN_01X02" V 1000 1750 50  0000 C CNN
-F 2 "3ML_Footprint_Library:Wurth_691103010002" H 900 1750 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/download/STEP-691103110002-rev1.stp" H 900 1750 50  0001 C CNN
-F 4 "691103110002" H 900 1750 60  0001 C CNN "MPN"
-F 5 "Wurth Electronics Inc" H 900 1750 60  0001 C CNN "MFN"
-F 6 "X" H 900 1750 60  0001 C CNN "Characteristics"
-F 7 "TERM BLOCK 2POS HORIZ 3.5MM T/H" H 900 1750 60  0001 C CNN "Description"
-F 8 "Through Hole" H 900 1750 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 900 1750 60  0001 C CNN "Source"
-F 10 "Y" H 900 1750 60  0001 C CNN "Critical"
-F 11 "X" H 900 1750 60  0001 C CNN "Notes"
-	1    900  1750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6050 1200 5550 1200
-Text Label 5550 1200 0    60   ~ 0
+Text Label 7800 2400 0    60   ~ 0
 F_DIN14
-Wire Wire Line
-	6050 1100 5550 1100
-Text Label 5550 1100 0    60   ~ 0
+Text Label 7800 2300 0    60   ~ 0
 F_DIN15
-Wire Wire Line
-	6050 1000 5550 1000
-Text Label 5550 1000 0    60   ~ 0
+Text Label 7800 2200 0    60   ~ 0
 F_DIN16
-Wire Wire Line
-	6050 900  5550 900 
-Text Label 5550 900  0    60   ~ 0
+Text Label 7800 2100 0    60   ~ 0
 F_DIN17
-Wire Wire Line
-	6050 800  5550 800 
-Text Label 5550 800  0    60   ~ 0
+Text Label 7800 2000 0    60   ~ 0
 F_DIN18
-Wire Wire Line
-	6050 700  5550 700 
-Text Label 5550 700  0    60   ~ 0
+Text Label 7800 1900 0    60   ~ 0
 F_DIN19
-Wire Wire Line
-	7500 1200 8000 1200
-Wire Wire Line
-	8000 1100 7500 1100
-Wire Wire Line
-	8000 1000 7500 1000
-Wire Wire Line
-	8000 900  7500 900 
-Wire Wire Line
-	8000 800  7500 800 
-Wire Wire Line
-	8000 700  7500 700 
-Text Label 8000 1200 2    60   ~ 0
+Text Label 10250 2400 2    60   ~ 0
 DIN14
-Text Label 8000 1100 2    60   ~ 0
+Text Label 10250 2300 2    60   ~ 0
 DIN15
-Text Label 8000 1000 2    60   ~ 0
+Text Label 10250 2200 2    60   ~ 0
 DIN16
-Text Label 8000 900  2    60   ~ 0
+Text Label 10250 2100 2    60   ~ 0
 DIN17
-Text Label 8000 800  2    60   ~ 0
+Text Label 10250 2000 2    60   ~ 0
 DIN18
-Text Label 8000 700  2    60   ~ 0
+Text Label 10250 1900 2    60   ~ 0
 DIN19
 $Sheet
-S 4500 3350 700  1050
+S 6300 4450 700  1050
 U 5935977E
 F0 "W5500" 60
 F1 "W5500.sch" 60
-F2 "ARD_MOSI" I L 4500 3700 60 
-F3 "ARD_MISO" O L 4500 3850 60 
-F4 "ARD_SCLK" I L 4500 4050 60 
-F5 "ARD_SS" I L 4500 4200 60 
+F2 "ARD_MOSI" I L 6300 4800 60 
+F3 "ARD_MISO" O L 6300 4950 60 
+F4 "ARD_SCLK" I L 6300 5150 60 
+F5 "ARD_SS" I L 6300 5300 60 
 $EndSheet
-Text Label 3650 4200 0    60   ~ 0
+Text Label 5450 5300 0    60   ~ 0
 PWM10
-NoConn ~ 2450 1800
-NoConn ~ 2450 1900
-NoConn ~ 2450 2000
-NoConn ~ 2450 2100
-Wire Wire Line
-	4500 4200 4400 4200
-Wire Wire Line
-	4500 4050 4400 4050
-Wire Wire Line
-	4500 3850 4400 3850
-Wire Wire Line
-	4500 3700 4400 3700
-Wire Wire Line
-	4100 4200 3650 4200
-Wire Wire Line
-	4100 4050 3650 4050
-Wire Wire Line
-	4100 3850 3650 3850
+NoConn ~ 3250 2700
+NoConn ~ 3250 2800
+NoConn ~ 3250 2900
+NoConn ~ 3250 3000
 $Comp
 L R R102
 U 1 1 593ACB17
-P 4250 3700
-F 0 "R102" V 4150 3700 50  0000 C CNN
-F 1 "0" V 4250 3700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 4180 3700 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4250 3700 50  0001 C CNN
-F 4 "RC0805JR-070RL" H 4250 3700 60  0001 C CNN "MPN"
-F 5 "Yageo" H 4250 3700 60  0001 C CNN "MFN"
-F 6 "Ethernet" H 4250 3700 60  0001 C CNN "Characteristics"
-F 7 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 4250 3700 60  0001 C CNN "Description"
-F 8 "0805" H 4250 3700 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 4250 3700 60  0001 C CNN "Source"
-F 10 "Y" H 4250 3700 60  0001 C CNN "Critical"
-F 11 "X" H 4250 3700 60  0001 C CNN "Notes"
-	1    4250 3700
+P 6050 4800
+F 0 "R102" V 5950 4800 50  0000 C CNN
+F 1 "0" V 6050 4800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 5980 4800 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 6050 4800 50  0001 C CNN
+F 4 "RC0805JR-070RL" H 6050 4800 60  0001 C CNN "MPN"
+F 5 "Yageo" H 6050 4800 60  0001 C CNN "MFN"
+F 6 "Ethernet" H 6050 4800 60  0001 C CNN "Characteristics"
+F 7 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 6050 4800 60  0001 C CNN "Description"
+F 8 "0805" H 6050 4800 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 6050 4800 60  0001 C CNN "Source"
+F 10 "Y" H 6050 4800 60  0001 C CNN "Critical"
+F 11 "X" H 6050 4800 60  0001 C CNN "Notes"
+	1    6050 4800
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4100 3700 3650 3700
-NoConn ~ 11700 5350
+NoConn ~ 14300 7300
 $Comp
 L R R103
 U 1 1 593B9CBF
-P 4250 3850
-F 0 "R103" V 4200 3650 50  0000 C CNN
-F 1 "0" V 4250 3850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 4180 3850 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4250 3850 50  0001 C CNN
-F 4 "RC0805JR-070RL" H 4250 3850 60  0001 C CNN "MPN"
-F 5 "Yageo" H 4250 3850 60  0001 C CNN "MFN"
-F 6 "Ethernet" H 4250 3850 60  0001 C CNN "Characteristics"
-F 7 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 4250 3850 60  0001 C CNN "Description"
-F 8 "0805" H 4250 3850 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 4250 3850 60  0001 C CNN "Source"
-F 10 "Y" H 4250 3850 60  0001 C CNN "Critical"
-F 11 "X" H 4250 3850 60  0001 C CNN "Notes"
-	1    4250 3850
+P 6050 4950
+F 0 "R103" V 6000 4750 50  0000 C CNN
+F 1 "0" V 6050 4950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 5980 4950 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 6050 4950 50  0001 C CNN
+F 4 "RC0805JR-070RL" H 6050 4950 60  0001 C CNN "MPN"
+F 5 "Yageo" H 6050 4950 60  0001 C CNN "MFN"
+F 6 "Ethernet" H 6050 4950 60  0001 C CNN "Characteristics"
+F 7 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 6050 4950 60  0001 C CNN "Description"
+F 8 "0805" H 6050 4950 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 6050 4950 60  0001 C CNN "Source"
+F 10 "Y" H 6050 4950 60  0001 C CNN "Critical"
+F 11 "X" H 6050 4950 60  0001 C CNN "Notes"
+	1    6050 4950
 	0    1    1    0   
 $EndComp
 $Comp
 L R R104
 U 1 1 593B9F8B
-P 4250 4050
-F 0 "R104" V 4150 4050 50  0000 C CNN
-F 1 "0" V 4250 4050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 4180 4050 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4250 4050 50  0001 C CNN
-F 4 "RC0805JR-070RL" H 4250 4050 60  0001 C CNN "MPN"
-F 5 "Yageo" H 4250 4050 60  0001 C CNN "MFN"
-F 6 "Ethernet" H 4250 4050 60  0001 C CNN "Characteristics"
-F 7 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 4250 4050 60  0001 C CNN "Description"
-F 8 "0805" H 4250 4050 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 4250 4050 60  0001 C CNN "Source"
-F 10 "Y" H 4250 4050 60  0001 C CNN "Critical"
-F 11 "X" H 4250 4050 60  0001 C CNN "Notes"
-	1    4250 4050
+P 6050 5150
+F 0 "R104" V 5950 5150 50  0000 C CNN
+F 1 "0" V 6050 5150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 5980 5150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 6050 5150 50  0001 C CNN
+F 4 "RC0805JR-070RL" H 6050 5150 60  0001 C CNN "MPN"
+F 5 "Yageo" H 6050 5150 60  0001 C CNN "MFN"
+F 6 "Ethernet" H 6050 5150 60  0001 C CNN "Characteristics"
+F 7 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 6050 5150 60  0001 C CNN "Description"
+F 8 "0805" H 6050 5150 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 6050 5150 60  0001 C CNN "Source"
+F 10 "Y" H 6050 5150 60  0001 C CNN "Critical"
+F 11 "X" H 6050 5150 60  0001 C CNN "Notes"
+	1    6050 5150
 	0    1    1    0   
 $EndComp
 $Comp
 L R R105
 U 1 1 593BA258
-P 4250 4200
-F 0 "R105" V 4200 4000 50  0000 C CNN
-F 1 "0" V 4250 4200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 4180 4200 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4250 4200 50  0001 C CNN
-F 4 "RC0805JR-070RL" H 4250 4200 60  0001 C CNN "MPN"
-F 5 "Yageo" H 4250 4200 60  0001 C CNN "MFN"
-F 6 "Ethernet" H 4250 4200 60  0001 C CNN "Characteristics"
-F 7 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 4250 4200 60  0001 C CNN "Description"
-F 8 "0805" H 4250 4200 60  0001 C CNN "Package ID"
-F 9 "Digikey" H 4250 4200 60  0001 C CNN "Source"
-F 10 "Y" H 4250 4200 60  0001 C CNN "Critical"
-F 11 "X" H 4250 4200 60  0001 C CNN "Notes"
-	1    4250 4200
+P 6050 5300
+F 0 "R105" V 6000 5100 50  0000 C CNN
+F 1 "0" V 6050 5300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 5980 5300 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 6050 5300 50  0001 C CNN
+F 4 "RC0805JR-070RL" H 6050 5300 60  0001 C CNN "MPN"
+F 5 "Yageo" H 6050 5300 60  0001 C CNN "MFN"
+F 6 "Ethernet" H 6050 5300 60  0001 C CNN "Characteristics"
+F 7 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 6050 5300 60  0001 C CNN "Description"
+F 8 "0805" H 6050 5300 60  0001 C CNN "Package ID"
+F 9 "Digikey" H 6050 5300 60  0001 C CNN "Source"
+F 10 "Y" H 6050 5300 60  0001 C CNN "Critical"
+F 11 "X" H 6050 5300 60  0001 C CNN "Notes"
+	1    6050 5300
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1100 3750 1850 3750
-Wire Wire Line
-	1850 3750 1850 3850
 $Comp
 L GND #PWR09
 U 1 1 593C6552
-P 1850 4250
-F 0 "#PWR09" H 1850 4000 50  0001 C CNN
-F 1 "GND" H 1850 4100 50  0000 C CNN
-F 2 "" H 1850 4250 50  0001 C CNN
-F 3 "" H 1850 4250 50  0001 C CNN
-	1    1850 4250
+P 2150 4950
+F 0 "#PWR09" H 2150 4700 50  0001 C CNN
+F 1 "GND" H 2150 4800 50  0000 C CNN
+F 2 "" H 2150 4950 50  0001 C CNN
+F 3 "" H 2150 4950 50  0001 C CNN
+	1    2150 4950
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 6050 600  1450 7300
+S 8300 1800 1450 7300
 U 58FD48A5
 F0 "Input_Protection" 60
 F1 "Input_Protection.sch" 60
-F2 "ARD_PWM13" O R 7500 1350 60 
-F3 "ARD_PWM12" O R 7500 1500 60 
-F4 "PWM13" I L 6050 1350 60 
-F5 "PWM12" I L 6050 1500 60 
-F6 "ARD_PWM11" O R 7500 1650 60 
-F7 "PWM11" I L 6050 1650 60 
-F8 "ARD_PWM9" O R 7500 1950 60 
-F9 "ARD_PWM8" O R 7500 2100 60 
-F10 "PWM9" I L 6050 1950 60 
-F11 "PWM8" I L 6050 2100 60 
-F12 "ARD_PWM7" O R 7500 2250 60 
-F13 "ARD_PWM6" O R 7500 2400 60 
-F14 "PWM7" I L 6050 2250 60 
-F15 "PWM6" I L 6050 2400 60 
-F16 "ARD_PWM5" O R 7500 2550 60 
-F17 "ARD_PWM4" O R 7500 2700 60 
-F18 "PWM5" I L 6050 2550 60 
-F19 "PWM4" I L 6050 2700 60 
-F20 "ARD_PWM3" O R 7500 2850 60 
-F21 "ARD_PWM2" O R 7500 3000 60 
-F22 "PWM3" I L 6050 2850 60 
-F23 "PWM2" I L 6050 3000 60 
-F24 "ARD_DIN49" O R 7500 3750 60 
-F25 "ARD_DIN48" O R 7500 3900 60 
-F26 "DIN49" I L 6050 3750 60 
-F27 "DIN48" I L 6050 3900 60 
-F28 "ARD_DIN47" O R 7500 4050 60 
-F29 "ARD_DIN46" O R 7500 4200 60 
-F30 "DIN47" I L 6050 4050 60 
-F31 "DIN46" I L 6050 4200 60 
-F32 "ARD_DIN45" O R 7500 4350 60 
-F33 "ARD_DIN44" O R 7500 4500 60 
-F34 "DIN45" I L 6050 4350 60 
-F35 "DIN44" I L 6050 4500 60 
-F36 "ARD_DIN43" O R 7500 4650 60 
-F37 "ARD_DIN42" O R 7500 4800 60 
-F38 "DIN43" I L 6050 4650 60 
-F39 "DIN42" I L 6050 4800 60 
-F40 "ARD_DIN41" O R 7500 4950 60 
-F41 "ARD_DIN40" O R 7500 5100 60 
-F42 "DIN41" I L 6050 4950 60 
-F43 "DIN40" I L 6050 5100 60 
-F44 "ARD_DIN39" O R 7500 5250 60 
-F45 "ARD_DIN38" O R 7500 5400 60 
-F46 "DIN39" I L 6050 5250 60 
-F47 "DIN38" I L 6050 5400 60 
-F48 "ARD_DIN37" O R 7500 5550 60 
-F49 "ARD_DIN36" O R 7500 5700 60 
-F50 "DIN37" I L 6050 5550 60 
-F51 "DIN36" I L 6050 5700 60 
-F52 "ARD_DIN35" O R 7500 5850 60 
-F53 "ARD_DIN34" O R 7500 6000 60 
-F54 "DIN35" I L 6050 5850 60 
-F55 "DIN34" I L 6050 6000 60 
-F56 "ARD_DIN33" O R 7500 6150 60 
-F57 "ARD_DIN32" O R 7500 6300 60 
-F58 "DIN33" I L 6050 6150 60 
-F59 "DIN32" I L 6050 6300 60 
-F60 "ARD_DIN31" O R 7500 6450 60 
-F61 "ARD_DIN30" O R 7500 6600 60 
-F62 "DIN31" I L 6050 6450 60 
-F63 "DIN30" I L 6050 6600 60 
-F64 "ARD_DIN29" O R 7500 6750 60 
-F65 "ARD_DIN28" O R 7500 6900 60 
-F66 "DIN29" I L 6050 6750 60 
-F67 "DIN28" I L 6050 6900 60 
-F68 "ARD_DIN27" O R 7500 7050 60 
-F69 "ARD_DIN26" O R 7500 7200 60 
-F70 "DIN27" I L 6050 7050 60 
-F71 "DIN26" I L 6050 7200 60 
-F72 "ARD_DIN25" O R 7500 7350 60 
-F73 "ARD_DIN24" O R 7500 7500 60 
-F74 "DIN25" I L 6050 7350 60 
-F75 "DIN24" I L 6050 7500 60 
-F76 "ARD_DIN23" O R 7500 7650 60 
-F77 "ARD_DIN22" O R 7500 7800 60 
-F78 "DIN23" I L 6050 7650 60 
-F79 "DIN22" I L 6050 7800 60 
-F80 "DIN14" I L 6050 1200 60 
-F81 "DIN15" I L 6050 1100 60 
-F82 "DIN16" I L 6050 1000 60 
-F83 "DIN17" I L 6050 900 60 
-F84 "DIN18" I L 6050 800 60 
-F85 "DIN19" I L 6050 700 60 
-F86 "ARD_DIN14" O R 7500 1200 60 
-F87 "ARD_DIN15" O R 7500 1100 60 
-F88 "ARD_DIN16" O R 7500 1000 60 
-F89 "ARD_DIN17" O R 7500 900 60 
-F90 "ARD_DIN18" O R 7500 800 60 
-F91 "ARD_DIN19" O R 7500 700 60 
+F2 "ARD_PWM13" O R 9750 2550 60 
+F3 "ARD_PWM12" O R 9750 2700 60 
+F4 "PWM13" I L 8300 2550 60 
+F5 "PWM12" I L 8300 2700 60 
+F6 "ARD_PWM11" O R 9750 2850 60 
+F7 "PWM11" I L 8300 2850 60 
+F8 "ARD_PWM9" O R 9750 3150 60 
+F9 "ARD_PWM8" O R 9750 3300 60 
+F10 "PWM9" I L 8300 3150 60 
+F11 "PWM8" I L 8300 3300 60 
+F12 "ARD_PWM7" O R 9750 3450 60 
+F13 "ARD_PWM6" O R 9750 3600 60 
+F14 "PWM7" I L 8300 3450 60 
+F15 "PWM6" I L 8300 3600 60 
+F16 "ARD_PWM5" O R 9750 3750 60 
+F17 "ARD_PWM4" O R 9750 3900 60 
+F18 "PWM5" I L 8300 3750 60 
+F19 "PWM4" I L 8300 3900 60 
+F20 "ARD_PWM3" O R 9750 4050 60 
+F21 "ARD_PWM2" O R 9750 4200 60 
+F22 "PWM3" I L 8300 4050 60 
+F23 "PWM2" I L 8300 4200 60 
+F24 "ARD_DIN49" O R 9750 4950 60 
+F25 "ARD_DIN48" O R 9750 5100 60 
+F26 "DIN49" I L 8300 4950 60 
+F27 "DIN48" I L 8300 5100 60 
+F28 "ARD_DIN47" O R 9750 5250 60 
+F29 "ARD_DIN46" O R 9750 5400 60 
+F30 "DIN47" I L 8300 5250 60 
+F31 "DIN46" I L 8300 5400 60 
+F32 "ARD_DIN45" O R 9750 5550 60 
+F33 "ARD_DIN44" O R 9750 5700 60 
+F34 "DIN45" I L 8300 5550 60 
+F35 "DIN44" I L 8300 5700 60 
+F36 "ARD_DIN43" O R 9750 5850 60 
+F37 "ARD_DIN42" O R 9750 6000 60 
+F38 "DIN43" I L 8300 5850 60 
+F39 "DIN42" I L 8300 6000 60 
+F40 "ARD_DIN41" O R 9750 6150 60 
+F41 "ARD_DIN40" O R 9750 6300 60 
+F42 "DIN41" I L 8300 6150 60 
+F43 "DIN40" I L 8300 6300 60 
+F44 "ARD_DIN39" O R 9750 6450 60 
+F45 "ARD_DIN38" O R 9750 6600 60 
+F46 "DIN39" I L 8300 6450 60 
+F47 "DIN38" I L 8300 6600 60 
+F48 "ARD_DIN37" O R 9750 6750 60 
+F49 "ARD_DIN36" O R 9750 6900 60 
+F50 "DIN37" I L 8300 6750 60 
+F51 "DIN36" I L 8300 6900 60 
+F52 "ARD_DIN35" O R 9750 7050 60 
+F53 "ARD_DIN34" O R 9750 7200 60 
+F54 "DIN35" I L 8300 7050 60 
+F55 "DIN34" I L 8300 7200 60 
+F56 "ARD_DIN33" O R 9750 7350 60 
+F57 "ARD_DIN32" O R 9750 7500 60 
+F58 "DIN33" I L 8300 7350 60 
+F59 "DIN32" I L 8300 7500 60 
+F60 "ARD_DIN31" O R 9750 7650 60 
+F61 "ARD_DIN30" O R 9750 7800 60 
+F62 "DIN31" I L 8300 7650 60 
+F63 "DIN30" I L 8300 7800 60 
+F64 "ARD_DIN29" O R 9750 7950 60 
+F65 "ARD_DIN28" O R 9750 8100 60 
+F66 "DIN29" I L 8300 7950 60 
+F67 "DIN28" I L 8300 8100 60 
+F68 "ARD_DIN27" O R 9750 8250 60 
+F69 "ARD_DIN26" O R 9750 8400 60 
+F70 "DIN27" I L 8300 8250 60 
+F71 "DIN26" I L 8300 8400 60 
+F72 "ARD_DIN25" O R 9750 8550 60 
+F73 "ARD_DIN24" O R 9750 8700 60 
+F74 "DIN25" I L 8300 8550 60 
+F75 "DIN24" I L 8300 8700 60 
+F76 "ARD_DIN23" O R 9750 8850 60 
+F77 "ARD_DIN22" O R 9750 9000 60 
+F78 "DIN23" I L 8300 8850 60 
+F79 "DIN22" I L 8300 9000 60 
+F80 "DIN14" I L 8300 2400 60 
+F81 "DIN15" I L 8300 2300 60 
+F82 "DIN16" I L 8300 2200 60 
+F83 "DIN17" I L 8300 2100 60 
+F84 "DIN18" I L 8300 2000 60 
+F85 "DIN19" I L 8300 1900 60 
+F86 "ARD_DIN14" O R 9750 2400 60 
+F87 "ARD_DIN15" O R 9750 2300 60 
+F88 "ARD_DIN16" O R 9750 2200 60 
+F89 "ARD_DIN17" O R 9750 2100 60 
+F90 "ARD_DIN18" O R 9750 2000 60 
+F91 "ARD_DIN19" O R 9750 1900 60 
 $EndSheet
-Wire Wire Line
-	12250 2100 12800 2100
-Wire Wire Line
-	12800 2100 12800 1950
 $Comp
 L +3V3 #PWR010
 U 1 1 593B9628
-P 12800 1950
-F 0 "#PWR010" H 12800 1800 50  0001 C CNN
-F 1 "+3V3" H 12800 2090 50  0000 C CNN
-F 2 "" H 12800 1950 50  0001 C CNN
-F 3 "" H 12800 1950 50  0001 C CNN
-	1    12800 1950
+P 15400 3900
+F 0 "#PWR010" H 15400 3750 50  0001 C CNN
+F 1 "+3V3" H 15400 4040 50  0000 C CNN
+F 2 "" H 15400 3900 50  0001 C CNN
+F 3 "" H 15400 3900 50  0001 C CNN
+	1    15400 3900
 	1    0    0    -1  
 $EndComp
-NoConn ~ 12250 2200
-Wire Wire Line
-	1850 4150 1850 4250
+NoConn ~ 14850 4150
 $Comp
 L D_Schottky_ALT D103
 U 1 1 5989D79A
-P 1900 1250
-F 0 "D103" H 1900 1350 50  0000 C CNN
-F 1 "0.5W" H 1900 1150 50  0000 C CNN
-F 2 "Diodes_SMD:SOD-123" H 1900 1250 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 1900 1250 50  0001 C CNN
-F 4 "X" H 1900 1250 60  0001 C CNN "Characteristics"
-F 5 "DIODE SCHOTTKY 80V 500MA SOD123" H 1900 1250 60  0001 C CNN "Description"
-F 6 "Micro Commercial Co" H 1900 1250 60  0001 C CNN "MFN"
-F 7 "SOD-123" H 1900 1250 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 1900 1250 60  0001 C CNN "Source"
-F 9 "Y" H 1900 1250 60  0001 C CNN "Critical"
-F 10 "X" H 1900 1250 60  0001 C CNN "Notes"
-F 11 "1" H 1900 1250 60  0001 C CNN "Populate"
-F 12 "MBR0580-TP" H 1900 1250 60  0001 C CNN "MPN"
-	1    1900 1250
-	0    -1   -1   0   
+P 2200 3550
+F 0 "D103" H 2200 3650 50  0000 C CNN
+F 1 "0.5W" H 2200 3450 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-123" H 2200 3550 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 2200 3550 50  0001 C CNN
+F 4 "X" H 2200 3550 60  0001 C CNN "Characteristics"
+F 5 "DIODE SCHOTTKY 80V 500MA SOD123" H 2200 3550 60  0001 C CNN "Description"
+F 6 "Micro Commercial Co" H 2200 3550 60  0001 C CNN "MFN"
+F 7 "SOD-123" H 2200 3550 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 2200 3550 60  0001 C CNN "Source"
+F 9 "Y" H 2200 3550 60  0001 C CNN "Critical"
+F 10 "X" H 2200 3550 60  0001 C CNN "Notes"
+F 11 "1" H 2200 3550 60  0001 C CNN "Populate"
+F 12 "MBR0580-TP" H 2200 3550 60  0001 C CNN "MPN"
+	1    2200 3550
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1900 1400 1900 1600
-Wire Wire Line
-	3350 2000 3350 2150
-Wire Wire Line
-	1050 1100 1900 1100
-Wire Wire Line
-	1050 1200 1250 1200
-Wire Wire Line
-	1250 1500 1900 1500
-Connection ~ 1900 1500
-Wire Wire Line
-	2450 2800 3350 2800
 $Comp
 L GND #PWR011
 U 1 1 598A7A47
-P 3350 3250
-F 0 "#PWR011" H 3350 3000 50  0001 C CNN
-F 1 "GND" H 3350 3100 50  0000 C CNN
-F 2 "" H 3350 3250 50  0001 C CNN
-F 3 "" H 3350 3250 50  0001 C CNN
-	1    3350 3250
+P 4150 4150
+F 0 "#PWR011" H 4150 3900 50  0001 C CNN
+F 1 "GND" H 4150 4000 50  0000 C CNN
+F 2 "" H 4150 4150 50  0001 C CNN
+F 3 "" H 4150 4150 50  0001 C CNN
+	1    4150 4150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3350 3100 3350 3250
-Wire Wire Line
-	2450 4100 3350 4100
 $Comp
 L GND #PWR012
 U 1 1 598AB066
-P 3350 4550
-F 0 "#PWR012" H 3350 4300 50  0001 C CNN
-F 1 "GND" H 3350 4400 50  0000 C CNN
-F 2 "" H 3350 4550 50  0001 C CNN
-F 3 "" H 3350 4550 50  0001 C CNN
-	1    3350 4550
+P 4150 5450
+F 0 "#PWR012" H 4150 5200 50  0001 C CNN
+F 1 "GND" H 4150 5300 50  0000 C CNN
+F 2 "" H 4150 5450 50  0001 C CNN
+F 3 "" H 4150 5450 50  0001 C CNN
+	1    4150 5450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3350 4400 3350 4550
-Wire Wire Line
-	2450 5200 3400 5200
 $Comp
 L GND #PWR013
 U 1 1 598AB93C
-P 3400 5650
-F 0 "#PWR013" H 3400 5400 50  0001 C CNN
-F 1 "GND" H 3400 5500 50  0000 C CNN
-F 2 "" H 3400 5650 50  0001 C CNN
-F 3 "" H 3400 5650 50  0001 C CNN
-	1    3400 5650
+P 4200 6550
+F 0 "#PWR013" H 4200 6300 50  0001 C CNN
+F 1 "GND" H 4200 6400 50  0000 C CNN
+F 2 "" H 4200 6550 50  0001 C CNN
+F 3 "" H 4200 6550 50  0001 C CNN
+	1    4200 6550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3400 5500 3400 5650
 $Comp
 L D_Schottky_ALT D101
 U 1 1 598ACBF0
-P 1250 1350
-F 0 "D101" H 1250 1450 50  0000 C CNN
-F 1 "0.5W" H 1250 1250 50  0000 C CNN
-F 2 "Diodes_SMD:SOD-123" H 1250 1350 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 1250 1350 50  0001 C CNN
-F 4 "X" H 1250 1350 60  0001 C CNN "Characteristics"
-F 5 "DIODE SCHOTTKY 80V 500MA SOD123" H 1250 1350 60  0001 C CNN "Description"
-F 6 "Micro Commercial Co" H 1250 1350 60  0001 C CNN "MFN"
-F 7 "SOD-123" H 1250 1350 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 1250 1350 60  0001 C CNN "Source"
-F 9 "Y" H 1250 1350 60  0001 C CNN "Critical"
-F 10 "X" H 1250 1350 60  0001 C CNN "Notes"
-F 11 "1" H 1250 1350 60  0001 C CNN "Populate"
-F 12 "MBR0580-TP" H 1250 1350 60  0001 C CNN "MPN"
-	1    1250 1350
-	0    -1   -1   0   
+P 1900 3300
+F 0 "D101" H 1900 3400 50  0000 C CNN
+F 1 "0.5W" H 1900 3200 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-123" H 1900 3300 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 1900 3300 50  0001 C CNN
+F 4 "X" H 1900 3300 60  0001 C CNN "Characteristics"
+F 5 "DIODE SCHOTTKY 80V 500MA SOD123" H 1900 3300 60  0001 C CNN "Description"
+F 6 "Micro Commercial Co" H 1900 3300 60  0001 C CNN "MFN"
+F 7 "SOD-123" H 1900 3300 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 1900 3300 60  0001 C CNN "Source"
+F 9 "Y" H 1900 3300 60  0001 C CNN "Critical"
+F 10 "X" H 1900 3300 60  0001 C CNN "Notes"
+F 11 "1" H 1900 3300 60  0001 C CNN "Populate"
+F 12 "MBR0580-TP" H 1900 3300 60  0001 C CNN "MPN"
+	1    1900 3300
+	1    0    0    -1  
 $EndComp
 $Comp
 L D_Schottky_ALT D104
 U 1 1 598ACECD
-P 3350 1850
-F 0 "D104" H 3350 1950 50  0000 C CNN
-F 1 "0.5W" H 3350 1750 50  0000 C CNN
-F 2 "Diodes_SMD:SOD-123" H 3350 1850 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 3350 1850 50  0001 C CNN
-F 4 "X" H 3350 1850 60  0001 C CNN "Characteristics"
-F 5 "DIODE SCHOTTKY 80V 500MA SOD123" H 3350 1850 60  0001 C CNN "Description"
-F 6 "Micro Commercial Co" H 3350 1850 60  0001 C CNN "MFN"
-F 7 "SOD-123" H 3350 1850 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 3350 1850 60  0001 C CNN "Source"
-F 9 "Y" H 3350 1850 60  0001 C CNN "Critical"
-F 10 "X" H 3350 1850 60  0001 C CNN "Notes"
-F 11 "1" H 3350 1850 60  0001 C CNN "Populate"
-F 12 "MBR0580-TP" H 3350 1850 60  0001 C CNN "MPN"
-	1    3350 1850
-	0    -1   -1   0   
+P 4150 2750
+F 0 "D104" H 4150 2850 50  0000 C CNN
+F 1 "0.5W" H 4150 2650 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-123" H 4150 2750 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 4150 2750 50  0001 C CNN
+F 4 "X" H 4150 2750 60  0001 C CNN "Characteristics"
+F 5 "DIODE SCHOTTKY 80V 500MA SOD123" H 4150 2750 60  0001 C CNN "Description"
+F 6 "Micro Commercial Co" H 4150 2750 60  0001 C CNN "MFN"
+F 7 "SOD-123" H 4150 2750 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 4150 2750 60  0001 C CNN "Source"
+F 9 "Y" H 4150 2750 60  0001 C CNN "Critical"
+F 10 "X" H 4150 2750 60  0001 C CNN "Notes"
+F 11 "1" H 4150 2750 60  0001 C CNN "Populate"
+F 12 "MBR0580-TP" H 4150 2750 60  0001 C CNN "MPN"
+	1    4150 2750
+	0    1    1    0   
 $EndComp
 $Comp
 L D_Schottky_ALT D106
 U 1 1 598AE26E
-P 3350 2950
-F 0 "D106" H 3350 3050 50  0000 C CNN
-F 1 "0.5W" H 3350 2850 50  0000 C CNN
-F 2 "Diodes_SMD:SOD-123" H 3350 2950 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 3350 2950 50  0001 C CNN
-F 4 "X" H 3350 2950 60  0001 C CNN "Characteristics"
-F 5 "DIODE SCHOTTKY 80V 500MA SOD123" H 3350 2950 60  0001 C CNN "Description"
-F 6 "Micro Commercial Co" H 3350 2950 60  0001 C CNN "MFN"
-F 7 "SOD-123" H 3350 2950 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 3350 2950 60  0001 C CNN "Source"
-F 9 "Y" H 3350 2950 60  0001 C CNN "Critical"
-F 10 "X" H 3350 2950 60  0001 C CNN "Notes"
-F 11 "1" H 3350 2950 60  0001 C CNN "Populate"
-F 12 "MBR0580-TP" H 3350 2950 60  0001 C CNN "MPN"
-	1    3350 2950
-	0    -1   -1   0   
+P 4150 3850
+F 0 "D106" H 4150 3950 50  0000 C CNN
+F 1 "0.5W" H 4150 3750 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-123" H 4150 3850 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 4150 3850 50  0001 C CNN
+F 4 "X" H 4150 3850 60  0001 C CNN "Characteristics"
+F 5 "DIODE SCHOTTKY 80V 500MA SOD123" H 4150 3850 60  0001 C CNN "Description"
+F 6 "Micro Commercial Co" H 4150 3850 60  0001 C CNN "MFN"
+F 7 "SOD-123" H 4150 3850 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 4150 3850 60  0001 C CNN "Source"
+F 9 "Y" H 4150 3850 60  0001 C CNN "Critical"
+F 10 "X" H 4150 3850 60  0001 C CNN "Notes"
+F 11 "1" H 4150 3850 60  0001 C CNN "Populate"
+F 12 "MBR0580-TP" H 4150 3850 60  0001 C CNN "MPN"
+	1    4150 3850
+	0    1    1    0   
 $EndComp
 $Comp
 L D_Schottky_ALT D102
 U 1 1 598AE553
-P 1850 4000
-F 0 "D102" H 1850 4100 50  0000 C CNN
-F 1 "0.5W" H 1850 3900 50  0000 C CNN
-F 2 "Diodes_SMD:SOD-123" H 1850 4000 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 1850 4000 50  0001 C CNN
-F 4 "X" H 1850 4000 60  0001 C CNN "Characteristics"
-F 5 "DIODE SCHOTTKY 80V 500MA SOD123" H 1850 4000 60  0001 C CNN "Description"
-F 6 "Micro Commercial Co" H 1850 4000 60  0001 C CNN "MFN"
-F 7 "SOD-123" H 1850 4000 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 1850 4000 60  0001 C CNN "Source"
-F 9 "Y" H 1850 4000 60  0001 C CNN "Critical"
-F 10 "X" H 1850 4000 60  0001 C CNN "Notes"
-F 11 "1" H 1850 4000 60  0001 C CNN "Populate"
-F 12 "MBR0580-TP" H 1850 4000 60  0001 C CNN "MPN"
-	1    1850 4000
-	0    -1   -1   0   
+P 2150 4700
+F 0 "D102" H 2150 4800 50  0000 C CNN
+F 1 "0.5W" H 2150 4600 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-123" H 2150 4700 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 2150 4700 50  0001 C CNN
+F 4 "X" H 2150 4700 60  0001 C CNN "Characteristics"
+F 5 "DIODE SCHOTTKY 80V 500MA SOD123" H 2150 4700 60  0001 C CNN "Description"
+F 6 "Micro Commercial Co" H 2150 4700 60  0001 C CNN "MFN"
+F 7 "SOD-123" H 2150 4700 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 2150 4700 60  0001 C CNN "Source"
+F 9 "Y" H 2150 4700 60  0001 C CNN "Critical"
+F 10 "X" H 2150 4700 60  0001 C CNN "Notes"
+F 11 "1" H 2150 4700 60  0001 C CNN "Populate"
+F 12 "MBR0580-TP" H 2150 4700 60  0001 C CNN "MPN"
+	1    2150 4700
+	0    1    1    0   
 $EndComp
 $Comp
 L D_Schottky_ALT D107
 U 1 1 598B1541
-P 3350 4250
-F 0 "D107" H 3350 4350 50  0000 C CNN
-F 1 "0.5W" H 3350 4150 50  0000 C CNN
-F 2 "Diodes_SMD:SOD-123" H 3350 4250 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 3350 4250 50  0001 C CNN
-F 4 "X" H 3350 4250 60  0001 C CNN "Characteristics"
-F 5 "DIODE SCHOTTKY 80V 500MA SOD123" H 3350 4250 60  0001 C CNN "Description"
-F 6 "Micro Commercial Co" H 3350 4250 60  0001 C CNN "MFN"
-F 7 "SOD-123" H 3350 4250 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 3350 4250 60  0001 C CNN "Source"
-F 9 "Y" H 3350 4250 60  0001 C CNN "Critical"
-F 10 "X" H 3350 4250 60  0001 C CNN "Notes"
-F 11 "1" H 3350 4250 60  0001 C CNN "Populate"
-F 12 "MBR0580-TP" H 3350 4250 60  0001 C CNN "MPN"
-	1    3350 4250
-	0    -1   -1   0   
+P 4150 5150
+F 0 "D107" H 4150 5250 50  0000 C CNN
+F 1 "0.5W" H 4150 5050 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-123" H 4150 5150 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 4150 5150 50  0001 C CNN
+F 4 "X" H 4150 5150 60  0001 C CNN "Characteristics"
+F 5 "DIODE SCHOTTKY 80V 500MA SOD123" H 4150 5150 60  0001 C CNN "Description"
+F 6 "Micro Commercial Co" H 4150 5150 60  0001 C CNN "MFN"
+F 7 "SOD-123" H 4150 5150 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 4150 5150 60  0001 C CNN "Source"
+F 9 "Y" H 4150 5150 60  0001 C CNN "Critical"
+F 10 "X" H 4150 5150 60  0001 C CNN "Notes"
+F 11 "1" H 4150 5150 60  0001 C CNN "Populate"
+F 12 "MBR0580-TP" H 4150 5150 60  0001 C CNN "MPN"
+	1    4150 5150
+	0    1    1    0   
 $EndComp
 $Comp
 L D_Schottky_ALT D108
 U 1 1 598B1827
-P 3400 5350
-F 0 "D108" H 3400 5450 50  0000 C CNN
-F 1 "0.5W" H 3400 5250 50  0000 C CNN
-F 2 "Diodes_SMD:SOD-123" H 3400 5350 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 3400 5350 50  0001 C CNN
-F 4 "X" H 3400 5350 60  0001 C CNN "Characteristics"
-F 5 "DIODE SCHOTTKY 80V 500MA SOD123" H 3400 5350 60  0001 C CNN "Description"
-F 6 "Micro Commercial Co" H 3400 5350 60  0001 C CNN "MFN"
-F 7 "SOD-123" H 3400 5350 60  0001 C CNN "Package ID"
-F 8 "Digikey" H 3400 5350 60  0001 C CNN "Source"
-F 9 "Y" H 3400 5350 60  0001 C CNN "Critical"
-F 10 "X" H 3400 5350 60  0001 C CNN "Notes"
-F 11 "1" H 3400 5350 60  0001 C CNN "Populate"
-F 12 "MBR0580-TP" H 3400 5350 60  0001 C CNN "MPN"
-	1    3400 5350
-	0    -1   -1   0   
+P 4200 6250
+F 0 "D108" H 4200 6350 50  0000 C CNN
+F 1 "0.5W" H 4200 6150 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-123" H 4200 6250 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 4200 6250 50  0001 C CNN
+F 4 "X" H 4200 6250 60  0001 C CNN "Characteristics"
+F 5 "DIODE SCHOTTKY 80V 500MA SOD123" H 4200 6250 60  0001 C CNN "Description"
+F 6 "Micro Commercial Co" H 4200 6250 60  0001 C CNN "MFN"
+F 7 "SOD-123" H 4200 6250 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 4200 6250 60  0001 C CNN "Source"
+F 9 "Y" H 4200 6250 60  0001 C CNN "Critical"
+F 10 "X" H 4200 6250 60  0001 C CNN "Notes"
+F 11 "1" H 4200 6250 60  0001 C CNN "Populate"
+F 12 "MBR0580-TP" H 4200 6250 60  0001 C CNN "MPN"
+	1    4200 6250
+	0    1    1    0   
 $EndComp
-Text Notes 650  800  0    60   ~ 0
-USE PHOENIX 1709678 INSTEAD OF WURTH CONN
+Text Notes 950  3050 0    60   ~ 0
+20 Pos Field Side Connector
+$Comp
+L Conn_01x20 J?
+U 1 1 59BED4D5
+P 1150 4350
+F 0 "J?" H 1150 5350 50  0000 C CNN
+F 1 "Conn_01x20" H 1150 3250 50  0000 C CNN
+F 2 "" H 1150 4350 50  0001 C CNN
+F 3 "" H 1150 4350 50  0001 C CNN
+F 4 "Value" H 1150 4350 60  0001 C CNN "Characteristics"
+F 5 "Value" H 1150 4350 60  0001 C CNN "Description"
+F 6 "Phoenix Contact" H 1150 4350 60  0001 C CNN "MFN"
+F 7 "Value" H 1150 4350 60  0001 C CNN "Package ID"
+F 8 "Digikey" H 1150 4350 60  0001 C CNN "Source"
+F 9 "Y" H 1150 4350 60  0001 C CNN "Critical"
+F 10 "X" H 1150 4350 60  0001 C CNN "Notes"
+F 11 "1" H 1150 4350 60  0001 C CNN "Populate"
+F 12 "1709678" H 1150 4350 60  0001 C CNN "MFN"
+	1    1150 4350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14850 4250 15600 4250
+Wire Wire Line
+	15600 4250 15600 4350
+Wire Wire Line
+	15600 4350 14850 4350
+Wire Wire Line
+	12250 4050 11600 4050
+Wire Wire Line
+	12250 4250 11850 4250
+Wire Wire Line
+	12250 4150 11850 4150
+Wire Wire Line
+	12250 4450 11850 4450
+Wire Wire Line
+	12250 4350 11850 4350
+Wire Wire Line
+	12250 4650 11850 4650
+Wire Wire Line
+	12250 4550 11850 4550
+Wire Wire Line
+	12250 4950 11850 4950
+Wire Wire Line
+	12250 4850 11850 4850
+Wire Wire Line
+	12250 5150 11850 5150
+Wire Wire Line
+	12250 5050 11850 5050
+Wire Wire Line
+	12250 5350 11850 5350
+Wire Wire Line
+	12250 5250 11850 5250
+Wire Wire Line
+	14400 6800 14800 6800
+Wire Wire Line
+	14800 6800 14800 7500
+Wire Wire Line
+	14400 7300 14800 7300
+Connection ~ 14800 7300
+Wire Wire Line
+	14300 6800 14300 6400
+Wire Wire Line
+	14200 6800 14200 6400
+Wire Wire Line
+	14100 6800 14100 6400
+Wire Wire Line
+	14000 6800 14000 6400
+Wire Wire Line
+	13900 6800 13900 6400
+Wire Wire Line
+	13800 6800 13800 6400
+Wire Wire Line
+	13700 6800 13700 6400
+Wire Wire Line
+	13600 6800 13600 6400
+Wire Wire Line
+	13500 6800 13500 6400
+Wire Wire Line
+	13400 6800 13400 6400
+Wire Wire Line
+	13300 6800 13300 6400
+Wire Wire Line
+	13200 6800 13200 6400
+Wire Wire Line
+	13100 6800 13100 6400
+Wire Wire Line
+	13000 6800 13000 6400
+Wire Wire Line
+	12900 6800 12900 6400
+Wire Wire Line
+	12800 7700 12800 7300
+Wire Wire Line
+	12800 6800 12800 6400
+Wire Wire Line
+	12900 7300 12900 7700
+Wire Wire Line
+	13000 7700 13000 7300
+Wire Wire Line
+	13100 7300 13100 7700
+Wire Wire Line
+	13200 7700 13200 7300
+Wire Wire Line
+	13300 7300 13300 7700
+Wire Wire Line
+	13400 7700 13400 7300
+Wire Wire Line
+	13500 7300 13500 7700
+Wire Wire Line
+	13600 7700 13600 7300
+Wire Wire Line
+	13700 7300 13700 7700
+Wire Wire Line
+	13800 7700 13800 7300
+Wire Wire Line
+	13900 7300 13900 7700
+Wire Wire Line
+	14000 7700 14000 7300
+Wire Wire Line
+	14100 7300 14100 7700
+Wire Wire Line
+	14200 7700 14200 7300
+Wire Wire Line
+	12300 6800 12700 6800
+Wire Wire Line
+	12300 7300 12700 7300
+Wire Wire Line
+	12300 6700 12300 7300
+Connection ~ 12300 6800
+Wire Wire Line
+	13500 5450 13500 5500
+Wire Wire Line
+	13500 5050 13500 5150
+Wire Wire Line
+	13500 5800 13500 5900
+Wire Wire Line
+	9750 2550 10250 2550
+Wire Wire Line
+	9750 2700 10250 2700
+Wire Wire Line
+	9750 2850 10250 2850
+Wire Wire Line
+	9750 3150 10250 3150
+Wire Wire Line
+	9750 3300 10250 3300
+Wire Wire Line
+	9750 3450 10250 3450
+Wire Wire Line
+	9750 3600 10250 3600
+Wire Wire Line
+	9750 3750 10250 3750
+Wire Wire Line
+	9750 3900 10250 3900
+Wire Wire Line
+	9750 4050 10250 4050
+Wire Wire Line
+	9750 4200 10250 4200
+Wire Wire Line
+	9750 4950 10250 4950
+Wire Wire Line
+	9750 5100 10250 5100
+Wire Wire Line
+	9750 5250 10250 5250
+Wire Wire Line
+	9750 5400 10250 5400
+Wire Wire Line
+	9750 5550 10250 5550
+Wire Wire Line
+	9750 5700 10250 5700
+Wire Wire Line
+	9750 5850 10250 5850
+Wire Wire Line
+	9750 6000 10250 6000
+Wire Wire Line
+	9750 6150 10250 6150
+Wire Wire Line
+	9750 6300 10250 6300
+Wire Wire Line
+	9750 6450 10250 6450
+Wire Wire Line
+	9750 6600 10250 6600
+Wire Wire Line
+	9750 6750 10250 6750
+Wire Wire Line
+	9750 6900 10250 6900
+Wire Wire Line
+	9750 7050 10250 7050
+Wire Wire Line
+	9750 7200 10250 7200
+Wire Wire Line
+	9750 7350 10250 7350
+Wire Wire Line
+	9750 7500 10250 7500
+Wire Wire Line
+	9750 7650 10250 7650
+Wire Wire Line
+	9750 7800 10250 7800
+Wire Wire Line
+	9750 7950 10250 7950
+Wire Wire Line
+	9750 8100 10250 8100
+Wire Wire Line
+	9750 8250 10250 8250
+Wire Wire Line
+	9750 8400 10250 8400
+Wire Wire Line
+	9750 9000 10250 9000
+Wire Wire Line
+	9750 8850 10250 8850
+Wire Wire Line
+	9750 8700 10250 8700
+Wire Wire Line
+	9750 8550 10250 8550
+Wire Wire Line
+	7800 4950 8300 4950
+Wire Wire Line
+	7800 5100 8300 5100
+Wire Wire Line
+	7800 5250 8300 5250
+Wire Wire Line
+	7800 5400 8300 5400
+Wire Wire Line
+	7800 5550 8300 5550
+Wire Wire Line
+	7800 5700 8300 5700
+Wire Wire Line
+	7800 5850 8300 5850
+Wire Wire Line
+	7800 6000 8300 6000
+Wire Wire Line
+	7800 6150 8300 6150
+Wire Wire Line
+	7800 6300 8300 6300
+Wire Wire Line
+	7800 6450 8300 6450
+Wire Wire Line
+	7800 6600 8300 6600
+Wire Wire Line
+	7800 6750 8300 6750
+Wire Wire Line
+	7800 6900 8300 6900
+Wire Wire Line
+	7800 7050 8300 7050
+Wire Wire Line
+	7800 7200 8300 7200
+Wire Wire Line
+	7800 7350 8300 7350
+Wire Wire Line
+	7800 7500 8300 7500
+Wire Wire Line
+	7800 7650 8300 7650
+Wire Wire Line
+	7800 7800 8300 7800
+Wire Wire Line
+	7800 7950 8300 7950
+Wire Wire Line
+	7800 8100 8300 8100
+Wire Wire Line
+	7800 8250 8300 8250
+Wire Wire Line
+	7800 8400 8300 8400
+Wire Wire Line
+	7800 8550 8300 8550
+Wire Wire Line
+	7800 8700 8300 8700
+Wire Wire Line
+	7800 8850 8300 8850
+Wire Wire Line
+	7800 9000 8300 9000
+Wire Wire Line
+	3250 6000 3850 6000
+Wire Wire Line
+	3250 5900 3850 5900
+Wire Wire Line
+	3250 5800 3850 5800
+Wire Wire Line
+	3250 5700 3850 5700
+Wire Wire Line
+	3250 5600 3850 5600
+Wire Wire Line
+	3250 5500 3850 5500
+Wire Wire Line
+	3250 5400 3850 5400
+Wire Wire Line
+	3250 5300 3850 5300
+Wire Wire Line
+	3250 5200 3850 5200
+Wire Wire Line
+	3250 5100 3850 5100
+Wire Wire Line
+	3250 4900 3800 4900
+Wire Wire Line
+	3250 4800 3800 4800
+Wire Wire Line
+	3250 4700 3800 4700
+Wire Wire Line
+	3250 4600 3800 4600
+Wire Wire Line
+	3250 4500 3800 4500
+Wire Wire Line
+	3250 4400 3800 4400
+Wire Wire Line
+	3250 4300 3800 4300
+Wire Wire Line
+	3250 4200 3800 4200
+Wire Wire Line
+	3250 4100 3800 4100
+Wire Wire Line
+	3250 4000 3800 4000
+Wire Wire Line
+	3250 3900 3800 3900
+Wire Wire Line
+	3250 3600 3800 3600
+Wire Wire Line
+	3250 3500 3800 3500
+Wire Wire Line
+	3250 3400 3800 3400
+Wire Wire Line
+	3250 3300 3800 3300
+Wire Wire Line
+	3250 3200 3800 3200
+Wire Wire Line
+	3250 3100 3800 3100
+Wire Wire Line
+	3250 2600 4150 2600
+Wire Wire Line
+	3250 3800 3800 3800
+Wire Wire Line
+	1350 5350 1950 5350
+Wire Wire Line
+	1350 5150 1950 5150
+Wire Wire Line
+	1350 5250 1950 5250
+Wire Wire Line
+	1350 5050 1950 5050
+Wire Wire Line
+	1350 4950 1950 4950
+Wire Wire Line
+	1350 4750 1950 4750
+Wire Wire Line
+	1350 4850 1950 4850
+Wire Wire Line
+	1350 4650 1950 4650
+Wire Wire Line
+	1350 4550 1950 4550
+Wire Wire Line
+	1350 4350 1950 4350
+Wire Wire Line
+	1350 4250 1950 4250
+Wire Wire Line
+	8300 4200 7800 4200
+Wire Wire Line
+	8300 4050 7800 4050
+Wire Wire Line
+	8300 3900 7800 3900
+Wire Wire Line
+	8300 3750 7800 3750
+Wire Wire Line
+	8300 3600 7800 3600
+Wire Wire Line
+	8300 3450 7800 3450
+Wire Wire Line
+	8300 3300 7800 3300
+Wire Wire Line
+	8300 3150 7800 3150
+Wire Wire Line
+	8300 2850 7800 2850
+Wire Wire Line
+	8300 2700 7800 2700
+Wire Wire Line
+	8300 2550 7800 2550
+Wire Wire Line
+	11600 4050 11600 4150
+Wire Wire Line
+	12250 5750 11850 5750
+Wire Wire Line
+	12250 5850 11850 5850
+Wire Wire Line
+	12250 5950 11850 5950
+Wire Wire Line
+	12250 6050 11850 6050
+Wire Wire Line
+	12250 6150 11850 6150
+Wire Wire Line
+	12250 6250 11850 6250
+Wire Wire Line
+	1350 4150 1950 4150
+Wire Wire Line
+	1350 4050 1950 4050
+Wire Wire Line
+	1350 3950 1950 3950
+Wire Wire Line
+	1350 3850 1950 3850
+Wire Wire Line
+	1350 3750 1950 3750
+Wire Wire Line
+	1350 3650 1950 3650
+Wire Wire Line
+	8300 2400 7800 2400
+Wire Wire Line
+	8300 2300 7800 2300
+Wire Wire Line
+	8300 2200 7800 2200
+Wire Wire Line
+	8300 2100 7800 2100
+Wire Wire Line
+	8300 2000 7800 2000
+Wire Wire Line
+	8300 1900 7800 1900
+Wire Wire Line
+	9750 2400 10250 2400
+Wire Wire Line
+	10250 2300 9750 2300
+Wire Wire Line
+	10250 2200 9750 2200
+Wire Wire Line
+	10250 2100 9750 2100
+Wire Wire Line
+	10250 2000 9750 2000
+Wire Wire Line
+	10250 1900 9750 1900
+Wire Wire Line
+	6300 5300 6200 5300
+Wire Wire Line
+	6300 5150 6200 5150
+Wire Wire Line
+	6300 4950 6200 4950
+Wire Wire Line
+	6300 4800 6200 4800
+Wire Wire Line
+	5900 5300 5450 5300
+Wire Wire Line
+	5900 5150 5450 5150
+Wire Wire Line
+	5900 4950 5450 4950
+Wire Wire Line
+	5900 4800 5450 4800
+Wire Wire Line
+	1350 4450 2150 4450
+Wire Wire Line
+	14850 4050 15400 4050
+Wire Wire Line
+	15400 4050 15400 3900
+Wire Wire Line
+	2150 4850 2150 4950
+Wire Wire Line
+	4150 2900 4150 3050
+Wire Wire Line
+	3250 3700 4150 3700
+Wire Wire Line
+	4150 4000 4150 4150
+Wire Wire Line
+	3250 5000 4150 5000
+Wire Wire Line
+	4150 5300 4150 5450
+Wire Wire Line
+	3250 6100 4200 6100
+Wire Wire Line
+	4200 6400 4200 6550
+Wire Wire Line
+	1350 3450 1600 3450
+Wire Wire Line
+	1600 3450 1600 3300
+Wire Wire Line
+	1600 3300 1750 3300
+Wire Wire Line
+	1350 3550 2050 3550
+Wire Wire Line
+	2550 3300 2550 3600
+Wire Wire Line
+	2050 3300 2550 3300
+Connection ~ 2550 3550
+Wire Wire Line
+	2550 3550 2350 3550
+Wire Wire Line
+	2150 4450 2150 4550
+Wire Notes Line
+	500  7450 4900 7450
+Wire Notes Line
+	4900 500  4900 10550
+Text Notes 550  7650 0    125  ~ 0
+Accessories
+Text Notes 650  800  0    125  ~ 0
+Field Connections
 $EndSCHEMATC
